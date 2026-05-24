@@ -26,7 +26,6 @@ class SetOddsCalculator(
 
         favorable = 0
 
-        # already pair
         if counts[0] == 2:
 
             pair_rank = None
@@ -43,7 +42,6 @@ class SetOddsCalculator(
                 4 - rank_counts[pair_rank]
             )
 
-            # Нужно хотя бы 1 карта
             favorable = (
                 total_runouts -
                 comb(
@@ -53,8 +51,10 @@ class SetOddsCalculator(
                 )
             )
 
-        # no pair
         else:
+
+            if self.cards_to_come == 1:
+                return 0.0
 
             hand_ranks = {
                 card[0]

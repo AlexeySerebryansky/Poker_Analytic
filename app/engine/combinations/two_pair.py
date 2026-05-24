@@ -1,9 +1,7 @@
 from app.engine.base_odds import BaseOddsCalculator
 
 
-class TwoPairOddsCalculator(
-    BaseOddsCalculator
-):
+class TwoPairOddsCalculator(BaseOddsCalculator):
 
     def calculate(self):
 
@@ -14,7 +12,6 @@ class TwoPairOddsCalculator(
             reverse=True
         )
 
-        # already two pair+
         if counts[0] >= 2 and len(counts) >= 2:
 
             paired_ranks = sum(
@@ -26,11 +23,9 @@ class TwoPairOddsCalculator(
             if paired_ranks >= 2:
                 return 100.0
 
-            # set/quads/fullhouse
             if counts[0] >= 3:
                 return 100.0
 
-        # exactly one pair
         if counts[0] == 2:
 
             pair_rank = None

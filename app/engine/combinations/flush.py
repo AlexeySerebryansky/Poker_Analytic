@@ -27,12 +27,11 @@ class FlushOddsCalculator(BaseOddsCalculator):
 
         if max_suit_count == 3 and self.cards_to_come == 2:
             remaining_suit_cards = (13 - max_suit_count)
-            probability = (
-                    (remaining_suit_cards / unseen)
-                    *
-                    ((remaining_suit_cards - 1) / (unseen - 1))
-            )
 
-            return round(probability * 100, 2)
+            return self.calculate_probability(
+                outs=remaining_suit_cards,
+                unseen_cards=unseen,
+                cards_to_come=2
+            )
 
         return 0.0
