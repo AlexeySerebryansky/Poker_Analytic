@@ -13,7 +13,8 @@ from app.engine.state import GameState
 
 game = GameState()
 
-game.set_hand(["Ah", "Kh"])
+
+game.set_hand(["Qd", "Jc"])
 
 game.set_board([
     "Qh",
