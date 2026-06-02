@@ -1,4 +1,4 @@
-from app.engine.constants import RANKS, SUITS
+from engine.calculating.constants import RANKS, SUITS
 
 
 class GameState:

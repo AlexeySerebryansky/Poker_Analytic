@@ -1,5 +1,5 @@
-from app.engine.base_odds import BaseOddsCalculator
-from app.engine.constants import RANKS
+from engine.calculating.base_odds import BaseOddsCalculator
+from engine.calculating.constants import RANKS
 
 
 class StreetFlashOddsCalculator(BaseOddsCalculator):

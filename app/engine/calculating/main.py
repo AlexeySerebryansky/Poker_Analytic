@@ -1,4 +1,4 @@
-from app.engine.combinations import (
+from engine.calculating.combinations import (
     FlushOddsCalculator,
     PairOddsCalculator,
     TwoPairOddsCalculator,
@@ -9,7 +9,7 @@ from app.engine.combinations import (
     StreetFlashOddsCalculator,
     FlushRoyalOddsCalculator
 )
-from app.engine.state import GameState
+from engine.calculating.state import GameState
 
 game = GameState()
 
@@ -18,7 +18,7 @@ game.set_hand(["Qd", "Jc"])
 
 game.set_board([
     "Qh",
-    "2c",
+    "2h",
     "9h"
 ])
 

@@ -1,4 +1,4 @@
-from app.engine.base_odds import BaseOddsCalculator
+from engine.calculating.base_odds import BaseOddsCalculator
 
 
 class TwoPairOddsCalculator(BaseOddsCalculator):

@@ -45,12 +45,12 @@ pip install -r requirements.txt
 ### Basic Example
 
 ```python
-from app.engine.combinations import (
+from engine.calculating.combinations import (
     FlushOddsCalculator,
     PairOddsCalculator,
     StraightOddsCalculator
 )
-from app.engine.state import GameState
+from engine.calculating.state import GameState
 
 # Create game state
 game = GameState()

@@ -1,7 +1,6 @@
-from math import comb
 from itertools import combinations
-from app.engine.base_odds import BaseOddsCalculator
-from app.engine.constants import RANKS, SUITS
+from engine.calculating.base_odds import BaseOddsCalculator
+from engine.calculating.constants import RANKS, SUITS
 
 
 class StraightOddsCalculator(BaseOddsCalculator):

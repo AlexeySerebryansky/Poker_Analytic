@@ -1,6 +1,6 @@
 from math import comb
 
-from app.engine.base_odds import BaseOddsCalculator
+from engine.calculating.base_odds import BaseOddsCalculator
 
 
 class SetOddsCalculator(
