@@ -1,19 +1,34 @@
 import json
-from PIL import Image
+from pathlib import Path
+
+import cv2
+import numpy as np
 
 import torch
-from torchvision import transforms
+from torchvision import transforms, models
+import torch.nn as nn
 
-from classification.model import CardsClassifier
 
 
-class Predictor:
+def build_model():
+    model = models.mobilenet_v3_small(weights=False)
 
-    def __init__(self, weights_path: str, mapping_path:str,  device: str = "cpu"):
+    model.classifier[3] = nn.Linear(model.classifier[3].in_features, 52)
 
-        self.device = torch.device(device)
+    return model
 
-        self.model = CardsClassifier()
+
+
+class PredictCard:
+
+    def __init__(self):
+
+        self.device = torch.device("cpu")
+
+        self.model = build_model()
+
+        mapping_path = Path(__file__).parent / "label_to_card.json"
+        weights_path = Path(__file__).parent / "best_model2.pth"
 
         self.model.load_state_dict(
             torch.load(
@@ -37,9 +52,8 @@ class Predictor:
         with open(mapping_path, "r", encoding="utf-8") as f:
             self.idx = json.load(f)
 
-    def preprocess_image(self, image_path: str) -> torch.Tensor:
-
-        image = Image.open(image_path).convert("RGB")
+    def preprocess_image(self, image: np.ndarray) -> torch.Tensor:
+        image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
         image = self.transform(image)
 
@@ -47,21 +61,14 @@ class Predictor:
 
         return image
 
-
-    def predict(self, image_path: str) -> str:
-
-        x = self.preprocess_image(image_path)
+    def predict(self, image: np.ndarray) -> str:
+        x = self.preprocess_image(image)
 
         x = x.to(self.device)
 
         with torch.no_grad():
-
             logits = self.model(x)
 
-            probs = torch.softmax(logits, dim=1)
+            pred_idx = torch.argmax(logits, dim=1).item()
 
-            pred_idx = torch.argmax(probs, dim=1)
-
-            pred_class = self.idx[str(pred_idx)]
-
-            return pred_class.item()
+            return self.idx[pred_idx]

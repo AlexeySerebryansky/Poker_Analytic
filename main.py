@@ -1,13 +1,16 @@
 import keyboard
-import cv2
 
-from stream_from_descktop.windows_utils import WindowSelector
+from classification.class_predictor import PredictCard
 from stream_from_descktop.capture import ScreenCapture, CaptureConfig
 from detection.detect_cards import DetectCards
+from stream_from_descktop.frame_stability import CenterRegionFilter
+from stream_from_descktop.windows_utils import WindowSelector
 
 
 def main():
-    model = DetectCards()
+    detect_cards = DetectCards()
+    predict_card = PredictCard()
+    frame_filter = CenterRegionFilter()
 
     print("Select window with your game and press F8")
 
@@ -19,48 +22,22 @@ def main():
 
     capture = ScreenCapture(
         CaptureConfig(
-            fps=30, region=window.region
+            fps=5, region=window.region
         )
     )
 
     for frame in capture.stream():
 
-        detections = model.detect_cards(frame)
+        if frame_filter.has_changed(frame):
 
-        draw_frame = frame.copy()
+            detections = detect_cards.detect_cards(frame)
 
-        for detection in detections:
-            cv2.rectangle(
-                draw_frame,
-                (detection.x1, detection.y1),
-                (detection.x2, detection.y2),
-                (0, 255, 0),
-                2
-            )
+            for detection in detections:
+                crop = detection.crop(frame)
 
-            cv2.putText(
-                draw_frame,
-                f"{detection.confidence:.2f}",
-                (detection.x1, detection.y1 - 10),
-                cv2.FONT_HERSHEY_SIMPLEX,
-                0.5,
-                (0, 255, 0),
-                2
-            )
+                card_name = predict_card.predict(crop)
 
-        cv2.imshow(
-            "Detections",
-            cv2.cvtColor(
-                draw_frame,
-                cv2.COLOR_RGB2BGR
-            )
-        )
-
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            break
-
-
-    cv2.destroyAllWindows()
+                print(f"Card name: {card_name}")
 
 
 if __name__ == '__main__':
