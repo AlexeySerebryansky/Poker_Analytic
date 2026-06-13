@@ -20,7 +20,7 @@ class DetectedCard:
 class DetectCards:
 
     def __init__(self, confidence_threshold: float = 0.5):
-        model_path = Path(__file__).parent / "detect_cards_model.pt"
+        model_path = Path(__file__).parent / "card_detect.pt"
         self.model = YOLO(model_path)
         self.confidence_threshold = confidence_threshold
 
