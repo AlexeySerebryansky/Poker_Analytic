@@ -143,7 +143,7 @@ class MainWindow:
 
         self.quit_button = tk.Button(
             right_frame,
-            text="Quit (Shift + Q)",
+            text="Quit (Escape)",
             command=self.close
         )
         self.quit_button.pack(
@@ -184,7 +184,7 @@ class MainWindow:
         )
 
         self.root.bind(
-            "<Q>",
+            "<Escape>",
             lambda e: self.close()
         )
 
