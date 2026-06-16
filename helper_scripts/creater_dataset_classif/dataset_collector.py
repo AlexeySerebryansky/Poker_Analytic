@@ -13,7 +13,7 @@ class DatasetCollector:
         ["c", "d", "h", "s"]
     ]
 
-    def __init__(self, dataset_dir: str = "dataset"):
+    def __init__(self, dataset_dir: str = "dataset/Train"):
 
         self.dataset_dir = Path(__file__).parent / dataset_dir
         print(self.dataset_dir)
