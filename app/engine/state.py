@@ -1,4 +1,6 @@
 from calculating.constants import RANKS, SUITS
+from exeptions import duplicated_card_error
+from exeptions.duplicated_card_error import DuplicatedCardError
 
 
 class GameState:
@@ -54,8 +56,8 @@ class GameState:
     def _validate_cards(cards):
 
         if len(cards) != len(set(cards)):
-            raise ValueError(
-                "Duplicate cards detected"
+            raise DuplicatedCardError(
+                duplicated_card_error
             )
 
 

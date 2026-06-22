@@ -1,0 +1,98 @@
+starting pipeline
+Capture initialized
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Jd', 'Qs'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards3
+Group updated
+Hand=('Jd', 'Qs'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards4
+Group updated
+Hand=('Jd', 'Qs'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Qs', 'Jd'), Board=('Jc', '8d', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Qs', 'Jd'), Board=('9c', '8d', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Group updated
+Hand=('Qs', 'Jd'), Board=('9c', '8d', 'Jd', 'Ks')
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Group updated
+Hand=('Qs', 'Jd'), Board=('9c', '8d', 'Jd', 'Ac')
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ac', 'Js'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Group updated
+Hand=('Js', 'Jd'), Board=('Jc', 'Jd', '8d', 'Ac')
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Jd'), Board=('Jc', 'Jd', '8d', 'Ac')
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Group updated
+Hand=('Js', 'Jd'), Board=('Jc', 'Jd', '8d', '3s')
+Odds calculated
+state updated

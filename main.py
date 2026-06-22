@@ -1,71 +1,24 @@
-import keyboard
+import sys
+from pathlib import Path
 
-from calculating.odds_result import OddsCalculatorService
-from classification.class_predictor import PredictCard
-from engine.cards_grouper import CardGrouper
-from engine.detection_matcher import RecognizedCard
-from engine.state_builder import StateBuilder
-from stream_from_descktop.capture import ScreenCapture, CaptureConfig
-from detection.detect_cards import DetectCards
-from stream_from_descktop.frame_stability import CenterRegionFilter
-from stream_from_descktop.windows_utils import WindowSelector
+from PyQt6.QtWidgets import QApplication
+
+from gui.main_window import MainWindow
 
 
 def main():
-    detect_cards = DetectCards()
-    predict_card = PredictCard()
-    frame_filter = CenterRegionFilter()
-    grouper = CardGrouper()
-    builder = StateBuilder()
-    calculator = OddsCalculatorService()
 
-    print("Select window with your game and press F8")
+    Path("gui/log.txt").write_text("", encoding="utf-8")
 
-    keyboard.wait("f8")
+    app = QApplication(sys.argv)
 
-    window = WindowSelector.select_window()
+    window = MainWindow()
 
-    print(f"Selected{window.title}")
+    window.show()
 
-    capture = ScreenCapture(
-        CaptureConfig(
-            fps=5, region=window.region
-        )
-    )
-
-    for frame in capture.stream():
-
-        if frame_filter.has_changed(frame):
-
-            detections = detect_cards.detect_cards(frame)
-
-            recognized_cards = []
-
-            for detection in detections:
-                crop = detection.crop(frame)
-
-                card_name = predict_card.predict(crop)
-
-                recognized_card = RecognizedCard(card=card_name, detection=detection)
-
-                recognized_cards.append(recognized_card)
-
-                print(f"Card name: {card_name}")
-
-            grouped_cards = grouper.group(recognized_cards)
-
-            state = builder.update(grouped_cards)
-
-            print(f"Hand: {state.hand}")
-            print(f"Board: {state.board}")
-
-            print("-----------")
-
-            results = calculator.calculate(state)
-
-            for combination, odds in results.items():
-                print(f"Combination: {combination},  Odds: {odds}")
+    sys.exit(app.exec())
 
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
