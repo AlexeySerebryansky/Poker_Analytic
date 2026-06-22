@@ -5,6 +5,8 @@ from PIL import ImageTk
 
 import cv2
 
+from stream_from_descktop.frame_stability import CenterRegionFilter
+
 
 class MainWindow:
 
@@ -160,6 +162,7 @@ class MainWindow:
         self.stats_button.pack(
             fill="x"
         )
+
 
     def _bind_hotkeys(self):
 
@@ -453,7 +456,6 @@ class MainWindow:
             padx=10,
             pady=10
         )
-
 
     def close(self):
         self.root.destroy()

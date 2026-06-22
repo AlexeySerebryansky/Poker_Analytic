@@ -31,10 +31,12 @@ class BaseOddsCalculator(ABC):
     @property
     def cards_to_come(self):
 
-        if self.game_state.street == "flop":
+        board_count = len(self.board)
+
+        if board_count == 3:
             return 2
 
-        if self.game_state.street == "turn":
+        if board_count == 4:
             return 1
 
         return 0

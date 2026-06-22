@@ -30,5 +30,4 @@ window = MainWindow(
 )
 
 
-
 window.run()

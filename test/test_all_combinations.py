@@ -1,4 +1,4 @@
-from engine.calculating.combinations import (
+from calculating.combinations import (
     FlushOddsCalculator,
     PairOddsCalculator,
     TwoPairOddsCalculator,
@@ -9,7 +9,7 @@ from engine.calculating.combinations import (
     StreetFlashOddsCalculator,
     FlushRoyalOddsCalculator
 )
-from engine.calculating.state import GameState
+from calculating import GameState
 
 print("=" * 70)
 print("TEST 1: Full House - set + need pair")

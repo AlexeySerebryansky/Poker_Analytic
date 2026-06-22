@@ -1,4 +1,4 @@
-from engine.calculating.constants import RANKS, SUITS
+from calculating.constants import RANKS, SUITS
 
 
 class GameState:
@@ -12,12 +12,12 @@ class GameState:
     @property
     def hand(self):
 
-        return self._hand
+        return tuple(self._hand)
 
     @property
     def board(self):
 
-        return self._board
+        return tuple(self._board)
 
     @property
     def all_cards(self):
@@ -27,57 +27,40 @@ class GameState:
                 self._board
         )
 
-    @property
-    def street(self):
-
-        streets = {
-            3: "flop",
-            4: "turn",
-            5: "river"
-        }
-
-        return streets.get(
-            len(self._board)
-        )
 
     def set_hand(self, cards):
 
         self._validate_cards(cards)
         self._validate_card_format(cards)
 
-        if len(cards) != 2:
-            raise ValueError(
-                "Hand must contain 2 cards"
-            )
-
         self._hand = cards
+
 
     def set_board(self, cards):
 
         self._validate_cards(cards)
         self._validate_card_format(cards)
 
-        if len(cards) not in (3, 4, 5):
-            raise ValueError(
-                "Board must contain 3-5 cards"
-            )
-
         self._board = cards
+
 
     def reset(self):
 
         self._hand = []
-
         self._board = []
 
-    def _validate_cards(self, cards):
+
+    @staticmethod
+    def _validate_cards(cards):
 
         if len(cards) != len(set(cards)):
             raise ValueError(
                 "Duplicate cards detected"
             )
 
-    def _validate_card_format(self, cards):
+
+    @staticmethod
+    def _validate_card_format(cards):
 
         for card in cards:
 

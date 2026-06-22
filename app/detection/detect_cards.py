@@ -16,6 +16,10 @@ class DetectedCard:
     def crop(self, frame: np.ndarray) -> np.ndarray:
         return frame[self.y1:self.y2, self.x1:self.x2]
 
+    @property
+    def center_y(self) -> float:
+        return (self.y1 + self.y2) // 2
+
 
 class DetectCards:
 
