@@ -1,9 +1,5 @@
 from datetime import datetime
-from PyQt6.QtWidgets import (
-    QWidget,
-    QTextEdit,
-    QVBoxLayout
-)
+from PyQt6.QtWidgets import QWidget, QTextEdit, QVBoxLayout
 
 
 class LogWindow(QWidget):
@@ -41,13 +37,9 @@ class LogWindow(QWidget):
             cursor.removeSelectedText()
             cursor.deleteChar()
 
-            timestamp = datetime.now().strftime(
-                "%H:%M:%S"
-            )
+            timestamp = datetime.now().strftime("%H:%M:%S")
 
-            self.text.append(
-                f"[{timestamp}] {message}"
-            )
+            self.text.append(f"[{timestamp}] {message}")
 
             self.text.verticalScrollBar().setValue(
                 self.text.verticalScrollBar().maximum()

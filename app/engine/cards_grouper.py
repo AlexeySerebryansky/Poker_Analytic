@@ -1,6 +1,5 @@
 from dataclasses import dataclass
 
-from detection.detect_cards import DetectedCard
 from engine.detection_matcher import RecognizedCard
 
 
@@ -24,18 +23,11 @@ class CardGrouper:
         if count == 2:
             return GroupedCards(hand=cards, board=[])
 
-        if count <= 7 :
+        if count <= 7:
 
-            sorted_cards = sorted(
-                cards,
-                key=lambda card: card.detection.center_y
-            )
+            sorted_cards = sorted(cards, key=lambda card: card.detection.center_y)
 
             return GroupedCards(hand=sorted_cards[-2:], board=sorted_cards[:-2])
 
         else:
             raise ValueError(f"Unexpected number of cards: {len(cards)}")
-
-
-
-

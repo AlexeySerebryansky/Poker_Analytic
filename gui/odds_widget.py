@@ -3,7 +3,7 @@ from PyQt6.QtWidgets import (
     QVBoxLayout,
     QTableWidget,
     QTableWidgetItem,
-    QHeaderView
+    QHeaderView,
 )
 
 
@@ -17,10 +17,7 @@ class OddsWidget(QWidget):
 
         self.table.setColumnCount(2)
 
-        self.table.setHorizontalHeaderLabels([
-            "Combination",
-            "Chance"
-        ])
+        self.table.setHorizontalHeaderLabels(["Combination", "Chance"])
 
         self.table.horizontalHeader().setSectionResizeMode(
             QHeaderView.ResizeMode.Stretch
@@ -35,7 +32,7 @@ class OddsWidget(QWidget):
             "Full House",
             "Kare",
             "Straight Flush",
-            "Royal Flush"
+            "Royal Flush",
         ]
 
         self.table.setRowCount(len(combinations))
@@ -43,17 +40,9 @@ class OddsWidget(QWidget):
         self.rows = {}
 
         for row, name in enumerate(combinations):
-            self.table.setItem(
-                row,
-                0,
-                QTableWidgetItem(name)
-            )
+            self.table.setItem(row, 0, QTableWidgetItem(name))
 
-            self.table.setItem(
-                row,
-                1,
-                QTableWidgetItem("0.00%")
-            )
+            self.table.setItem(row, 1, QTableWidgetItem("0.00%"))
 
             self.rows[name] = row
 
@@ -67,10 +56,4 @@ class OddsWidget(QWidget):
         for name, value in odds.items():
             row = self.rows[name]
 
-            self.table.setItem(
-                row,
-                1,
-                QTableWidgetItem(
-                    f"{value:.2f}%"
-                )
-            )
+            self.table.setItem(row, 1, QTableWidgetItem(f"{value:.2f}%"))

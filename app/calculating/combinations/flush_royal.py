@@ -1,10 +1,11 @@
 from calculating.base_odds import BaseOddsCalculator
 
+
 class FlushRoyalOddsCalculator(BaseOddsCalculator):
 
     def calculate(self):
 
-        royal_ranks = {'T', 'J', 'Q', 'K', 'A'}
+        royal_ranks = {"T", "J", "Q", "K", "A"}
 
         if self._has_royal_flush():
             return 100.0
@@ -44,12 +45,12 @@ class FlushRoyalOddsCalculator(BaseOddsCalculator):
         return self.calculate_probability(
             outs=outs,
             unseen_cards=self.unseen_cards_count,
-            cards_to_come=self.cards_to_come
+            cards_to_come=self.cards_to_come,
         )
 
     def _has_royal_flush(self):
 
-        royal_ranks = {'T', 'J', 'Q', 'K', 'A'}
+        royal_ranks = {"T", "J", "Q", "K", "A"}
 
         suits_dict = {}
         for card in self.cards:

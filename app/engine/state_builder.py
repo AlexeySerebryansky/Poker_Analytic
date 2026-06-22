@@ -20,16 +20,9 @@ class StateBuilder:
 
         return self._state
 
-
-
-
     def _is_valid(self, grouped_cards: GroupedCards) -> bool:
 
         hand_count = len(grouped_cards.hand)
         board_count = len(grouped_cards.board)
 
-        return(
-            hand_count == 2
-            and
-            board_count in (0, 3, 4, 5)
-        )
+        return hand_count == 2 and board_count in (0, 3, 4, 5)

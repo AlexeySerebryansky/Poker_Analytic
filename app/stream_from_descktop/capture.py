@@ -6,6 +6,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+
 @dataclass
 class CaptureConfig:
     fps: int = 30
@@ -22,9 +23,7 @@ class ScreenCapture:
 
     def _get_camera(self) -> dxcam.DXCamera:
         if self._camera is None:
-            self._camera = dxcam.create(
-                output_color=self.config.output_color
-            )
+            self._camera = dxcam.create(output_color=self.config.output_color)
         return self._camera
 
     def grab_frame(self) -> Optional[np.ndarray]:
@@ -41,12 +40,11 @@ class ScreenCapture:
     def stream(self) -> Generator[np.ndarray, None, None]:
 
         camera = self._get_camera()
-        camera.start(
-            region=self.config.region,
-            target_fps=self.config.fps
-        )
+        camera.start(region=self.config.region, target_fps=self.config.fps)
         self._is_streaming = True
-        logger.info(f"Stream started: {self.config.fps} FPS, region={self.config.region}")
+        logger.info(
+            f"Stream started: {self.config.fps} FPS, region={self.config.region}"
+        )
 
         try:
             while self._is_streaming:
@@ -78,5 +76,6 @@ class ScreenCapture:
     @staticmethod
     def get_screen_size() -> Tuple[int, int]:
         import ctypes
+
         user32 = ctypes.windll.user32
         return user32.GetSystemMetrics(0), user32.GetSystemMetrics(1)

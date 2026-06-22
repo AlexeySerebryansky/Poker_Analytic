@@ -15,11 +15,7 @@ window = WindowSelector.select_window()
 
 print(f"Selected{window.title}")
 
-capture = ScreenCapture(
-    CaptureConfig(
-        fps=5, region=window.region
-    )
-)
+capture = ScreenCapture(CaptureConfig(fps=5, region=window.region))
 
 for frame in capture.stream():
     detections = model.detect_cards(frame)
@@ -32,7 +28,7 @@ for frame in capture.stream():
             (detection.x1, detection.y1),
             (detection.x2, detection.y2),
             (0, 255, 0),
-            2
+            2,
         )
 
         cv2.putText(
@@ -42,18 +38,12 @@ for frame in capture.stream():
             cv2.FONT_HERSHEY_SIMPLEX,
             0.5,
             (0, 255, 0),
-            2
+            2,
         )
 
-    cv2.imshow(
-        "Detections",
-        cv2.cvtColor(
-            draw_frame,
-            cv2.COLOR_RGB2BGR
-        )
-    )
+    cv2.imshow("Detections", cv2.cvtColor(draw_frame, cv2.COLOR_RGB2BGR))
 
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) & 0xFF == ord("q"):
         break
 
 cv2.destroyAllWindows()

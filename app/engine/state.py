@@ -24,11 +24,7 @@ class GameState:
     @property
     def all_cards(self):
 
-        return (
-                self._hand +
-                self._board
-        )
-
+        return self._hand + self._board
 
     def set_hand(self, cards):
 
@@ -37,7 +33,6 @@ class GameState:
 
         self._hand = cards
 
-
     def set_board(self, cards):
 
         self._validate_cards(cards)
@@ -45,21 +40,16 @@ class GameState:
 
         self._board = cards
 
-
     def reset(self):
 
         self._hand = []
         self._board = []
 
-
     @staticmethod
     def _validate_cards(cards):
 
         if len(cards) != len(set(cards)):
-            raise DuplicatedCardError(
-                duplicated_card_error
-            )
-
+            raise DuplicatedCardError(duplicated_card_error)
 
     @staticmethod
     def _validate_card_format(cards):
@@ -67,9 +57,7 @@ class GameState:
         for card in cards:
 
             if len(card) != 2:
-                raise ValueError(
-                    f"Invalid card length: {card}"
-                )
+                raise ValueError(f"Invalid card length: {card}")
 
             rank = card[0]
             suit = card[1]
@@ -79,4 +67,3 @@ class GameState:
 
             if suit not in SUITS:
                 raise ValueError(f"Invalid suit format {suit}")
-

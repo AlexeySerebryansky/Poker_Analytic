@@ -7,10 +7,7 @@ class KareOddsCalculator(BaseOddsCalculator):
 
         rank_counts = self.count_ranks()
 
-        counts = sorted(
-            rank_counts.values(),
-            reverse=True
-        )
+        counts = sorted(rank_counts.values(), reverse=True)
 
         if counts[0] >= 4:
             return 100.0
@@ -24,7 +21,7 @@ class KareOddsCalculator(BaseOddsCalculator):
                     return self.calculate_probability(
                         outs=remaining,
                         unseen_cards=self.unseen_cards_count,
-                        cards_to_come=self.cards_to_come
+                        cards_to_come=self.cards_to_come,
                     )
 
         if counts[0] == 2:
@@ -34,10 +31,8 @@ class KareOddsCalculator(BaseOddsCalculator):
                     remaining = 4 - count
 
                     if self.cards_to_come == 2 and remaining == 2:
-                        probability = (
-                            (remaining / self.unseen_cards_count)
-                            *
-                            ((remaining - 1) / (self.unseen_cards_count - 1))
+                        probability = (remaining / self.unseen_cards_count) * (
+                            (remaining - 1) / (self.unseen_cards_count - 1)
                         )
                         return round(probability * 100, 2)
 

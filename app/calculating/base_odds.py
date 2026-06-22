@@ -43,58 +43,34 @@ class BaseOddsCalculator(ABC):
 
     def count_ranks(self):
 
-        ranks = [
-            card[0]
-            for card in self.cards
-        ]
+        ranks = [card[0] for card in self.cards]
 
         return Counter(ranks)
 
     def count_suits(self):
 
-        suits = [
-            card[1]
-            for card in self.cards
-        ]
+        suits = [card[1] for card in self.cards]
 
         return Counter(suits)
 
     @staticmethod
-    def calculate_probability(
-        outs,
-        unseen_cards,
-        cards_to_come
-    ):
+    def calculate_probability(outs, unseen_cards, cards_to_come):
 
         if cards_to_come == 2:
 
-            probability = (
-                1 -
-                (
-                    (unseen_cards - outs)
-                    / unseen_cards
-                )
-                *
-                (
-                    (unseen_cards - outs - 1)
-                    / (unseen_cards - 1)
-                )
+            probability = 1 - ((unseen_cards - outs) / unseen_cards) * (
+                (unseen_cards - outs - 1) / (unseen_cards - 1)
             )
 
         elif cards_to_come == 1:
 
-            probability = (
-                outs / unseen_cards
-            )
+            probability = outs / unseen_cards
 
         else:
 
             probability = 0.0
 
-        return round(
-            probability * 100,
-            2
-        )
+        return round(probability * 100, 2)
 
     @abstractmethod
     def calculate(self):

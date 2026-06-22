@@ -2,7 +2,11 @@ import keyboard
 from PyQt6.QtWidgets import (
     QMainWindow,
     QWidget,
-    QVBoxLayout, QPushButton, QHBoxLayout, QLabel, QApplication
+    QVBoxLayout,
+    QPushButton,
+    QHBoxLayout,
+    QLabel,
+    QApplication,
 )
 
 from gui.log_window import LogWindow
@@ -65,13 +69,9 @@ class MainWindow(QMainWindow):
 
         self.log("worker created")
 
-        worker.state_updated.connect(
-            table.update_state
-        )
+        worker.state_updated.connect(table.update_state)
 
-        worker.log_updated.connect(
-            self.log_window.add_log
-        )
+        worker.log_updated.connect(self.log_window.add_log)
 
         worker.start()
 
@@ -79,10 +79,7 @@ class MainWindow(QMainWindow):
 
         self.set_status(f"Tracking: {selected_window.title}")
 
-        self.table.append({
-            "widget": table,
-            "worker": worker
-        })
+        self.table.append({"widget": table, "worker": worker})
         self.layout.addWidget(table)
 
     def set_status(self, text: str):

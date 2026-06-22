@@ -9,14 +9,12 @@ from torchvision import transforms, models
 import torch.nn as nn
 
 
-
 def build_model():
     model = models.mobilenet_v3_small(weights=False)
 
     model.classifier[3] = nn.Linear(model.classifier[3].in_features, 52)
 
     return model
-
 
 
 class PredictCard:
@@ -30,24 +28,20 @@ class PredictCard:
         mapping_path = Path(__file__).parent / "label_to_card.json"
         weights_path = Path(__file__).parent / "best_model2.pth"
 
-        self.model.load_state_dict(
-            torch.load(
-                weights_path,
-                map_location=self.device
-            )
-        )
+        self.model.load_state_dict(torch.load(weights_path, map_location=self.device))
 
         self.model = self.model.to(self.device)
 
         self.model.eval()
 
-        self.transform = transforms.Compose([
-            transforms.ToTensor(),
-            transforms.Normalize(
-                mean=[0.485, 0.456, 0.406],
-                std=[0.229, 0.224, 0.225]
-            )
-        ])
+        self.transform = transforms.Compose(
+            [
+                transforms.ToTensor(),
+                transforms.Normalize(
+                    mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]
+                ),
+            ]
+        )
 
         with open(mapping_path, "r", encoding="utf-8") as f:
             self.idx = json.load(f)

@@ -8,10 +8,7 @@ class FullHouseOddsCalculator(BaseOddsCalculator):
 
         rank_counts = self.count_ranks()
 
-        counts = sorted(
-            rank_counts.values(),
-            reverse=True
-        )
+        counts = sorted(rank_counts.values(), reverse=True)
 
         if counts[0] >= 3 and len(counts) >= 2 and counts[1] >= 2:
             return 100.0
@@ -34,7 +31,7 @@ class FullHouseOddsCalculator(BaseOddsCalculator):
             return self.calculate_probability(
                 outs=outs,
                 unseen_cards=self.unseen_cards_count,
-                cards_to_come=self.cards_to_come
+                cards_to_come=self.cards_to_come,
             )
 
         if counts[0] == 2 and len(counts) >= 2 and counts[1] == 2:
@@ -53,7 +50,7 @@ class FullHouseOddsCalculator(BaseOddsCalculator):
             return self.calculate_probability(
                 outs=outs,
                 unseen_cards=self.unseen_cards_count,
-                cards_to_come=self.cards_to_come
+                cards_to_come=self.cards_to_come,
             )
 
         if counts[0] == 2:
@@ -67,10 +64,7 @@ class FullHouseOddsCalculator(BaseOddsCalculator):
                     pair_rank = rank
                     break
 
-            total_runouts = comb(
-                self.unseen_cards_count,
-                self.cards_to_come
-            )
+            total_runouts = comb(self.unseen_cards_count, self.cards_to_come)
 
             favorable = 0
 

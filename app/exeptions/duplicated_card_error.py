@@ -3,6 +3,4 @@ class DuplicatedCardError(Exception):
 
         self.cards = cards
 
-        super().__init__(
-            f"Duplicate cards detected: {cards}"
-        )
+        super().__init__(f"Duplicate cards detected: {cards}")

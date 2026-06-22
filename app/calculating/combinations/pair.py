@@ -1,9 +1,7 @@
 from calculating.base_odds import BaseOddsCalculator
 
 
-class PairOddsCalculator(
-    BaseOddsCalculator
-):
+class PairOddsCalculator(BaseOddsCalculator):
 
     def calculate(self):
 
@@ -14,31 +12,21 @@ class PairOddsCalculator(
 
         outs = 0
 
-        hand_ranks = {
-            card[0]
-            for card in self.hand
-        }
+        hand_ranks = {card[0] for card in self.hand}
 
         for rank in hand_ranks:
-            remaining = (
-                4 - rank_counts[rank]
-            )
+            remaining = 4 - rank_counts[rank]
             outs += remaining
 
-        board_ranks = {
-            card[0]
-            for card in self.board
-        }
+        board_ranks = {card[0] for card in self.board}
 
         for rank in board_ranks:
             if rank not in hand_ranks:
-                remaining = (
-                    4 - rank_counts[rank]
-                )
+                remaining = 4 - rank_counts[rank]
                 outs += remaining
 
         return self.calculate_probability(
             outs=outs,
             unseen_cards=self.unseen_cards_count,
-            cards_to_come=self.cards_to_come
+            cards_to_come=self.cards_to_come,
         )

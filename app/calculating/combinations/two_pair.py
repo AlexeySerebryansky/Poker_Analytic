@@ -7,18 +7,11 @@ class TwoPairOddsCalculator(BaseOddsCalculator):
 
         rank_counts = self.count_ranks()
 
-        counts = sorted(
-            rank_counts.values(),
-            reverse=True
-        )
+        counts = sorted(rank_counts.values(), reverse=True)
 
         if counts[0] >= 2 and len(counts) >= 2:
 
-            paired_ranks = sum(
-                1
-                for count in counts
-                if count >= 2
-            )
+            paired_ranks = sum(1 for count in counts if count >= 2)
 
             if paired_ranks >= 2:
                 return 100.0
@@ -30,9 +23,7 @@ class TwoPairOddsCalculator(BaseOddsCalculator):
 
             pair_rank = None
 
-            for rank, count in (
-                rank_counts.items()
-            ):
+            for rank, count in rank_counts.items():
 
                 if count == 2:
                     pair_rank = rank
@@ -40,9 +31,7 @@ class TwoPairOddsCalculator(BaseOddsCalculator):
 
             outs = 0
 
-            for rank, count in (
-                rank_counts.items()
-            ):
+            for rank, count in rank_counts.items():
 
                 if rank == pair_rank:
                     continue
@@ -52,7 +41,7 @@ class TwoPairOddsCalculator(BaseOddsCalculator):
             return self.calculate_probability(
                 outs=outs,
                 unseen_cards=self.unseen_cards_count,
-                cards_to_come=self.cards_to_come
+                cards_to_come=self.cards_to_come,
             )
 
         return 0.0

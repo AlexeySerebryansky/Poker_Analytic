@@ -28,6 +28,3 @@ class WindowSelector:
         title = win32gui.GetWindowText(hwnd)
 
         return SelectWindow(hwnd=hwnd, title=title)
-
-
-

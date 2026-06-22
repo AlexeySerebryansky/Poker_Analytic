@@ -26,11 +26,7 @@ window = WindowSelector.select_window()
 
 print(f"Selected{window.title}")
 
-capture = ScreenCapture(
-    CaptureConfig(
-        fps=5, region=window.region
-    )
-)
+capture = ScreenCapture(CaptureConfig(fps=5, region=window.region))
 
 for frame in capture.stream():
 
@@ -66,9 +62,7 @@ for frame in capture.stream():
 
         print("-----------")
 
-
         results = calculator.calculate(state)
-
 
         for combination, odds in results.items():
             print(f"Combination: {combination}  ---  {odds}")

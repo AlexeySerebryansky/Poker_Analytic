@@ -48,7 +48,7 @@ class StreetFlashOddsCalculator(BaseOddsCalculator):
         return self.calculate_probability(
             outs=outs,
             unseen_cards=self.unseen_cards_count,
-            cards_to_come=self.cards_to_come
+            cards_to_come=self.cards_to_come,
         )
 
     def _has_straight_flush(self):
@@ -69,7 +69,7 @@ class StreetFlashOddsCalculator(BaseOddsCalculator):
 
             consecutive = 1
             for i in range(1, len(rank_indices)):
-                if rank_indices[i] == rank_indices[i-1] + 1:
+                if rank_indices[i] == rank_indices[i - 1] + 1:
                     consecutive += 1
                     if consecutive >= 5:
                         return True

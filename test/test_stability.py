@@ -13,11 +13,7 @@ window = WindowSelector.select_window()
 
 print(f"Selected{window.title}")
 
-capture = ScreenCapture(
-    CaptureConfig(
-        fps=30, region=window.region
-    )
-)
+capture = ScreenCapture(CaptureConfig(fps=30, region=window.region))
 
 frame_filter = CenterRegionFilter()
 
@@ -25,12 +21,9 @@ for frame in capture.stream():
     if frame_filter.has_changed(frame):
         debug_frame = frame_filter.draw_debug(frame)
 
-        cv2.imshow(
-            "debug",
-            debug_frame
-        )
+        cv2.imshow("debug", debug_frame)
 
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) & 0xFF == ord("q"):
         break
 
 cv2.destroyAllWindows()

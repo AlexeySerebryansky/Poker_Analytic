@@ -14,7 +14,7 @@ class DetectedCard:
     confidence: float
 
     def crop(self, frame: np.ndarray) -> np.ndarray:
-        return frame[self.y1:self.y2, self.x1:self.x2]
+        return frame[self.y1 : self.y2, self.x1 : self.x2]
 
     @property
     def center_y(self) -> float:
@@ -30,9 +30,7 @@ class DetectCards:
 
     def detect_cards(self, frame) -> List[DetectedCard]:
         results = self.model.predict(
-            source=frame,
-            conf=self.confidence_threshold,
-            verbose=False
+            source=frame, conf=self.confidence_threshold, verbose=False
         )
 
         detections = []
@@ -46,7 +44,7 @@ class DetectCards:
                     y1=int(y1),
                     x2=int(x2),
                     y2=int(y2),
-                    confidence=float(box.conf[0])
+                    confidence=float(box.conf[0]),
                 )
             )
 

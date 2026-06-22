@@ -9,7 +9,7 @@ from calculating.combinations import (
     FullHouseOddsCalculator,
     KareOddsCalculator,
     StreetFlashOddsCalculator,
-    FlushRoyalOddsCalculator
+    FlushRoyalOddsCalculator,
 )
 
 

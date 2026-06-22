@@ -1,8 +1,4 @@
-from PyQt6.QtWidgets import (
-    QWidget,
-    QLabel,
-    QVBoxLayout
-)
+from PyQt6.QtWidgets import QWidget, QLabel, QVBoxLayout
 
 
 class CardsWidget(QWidget):
@@ -21,10 +17,6 @@ class CardsWidget(QWidget):
         self.setLayout(layout)
 
     def update_cards(self, hand, board):
-        self.hand_label.setText(
-            f"Hand: {' '.join(hand)}"
-        )
+        self.hand_label.setText(f"Hand: {' '.join(hand)}")
 
-        self.board_label.setText(
-            f"Board: {' '.join(board)}"
-        )
+        self.board_label.setText(f"Board: {' '.join(board)}")

@@ -1,8 +1,5 @@
 from pathlib import Path
-from PyQt6.QtCore import (
-    QThread,
-    pyqtSignal
-)
+from PyQt6.QtCore import QThread, pyqtSignal
 
 from calculating.odds_result import OddsCalculatorService
 from classification.class_predictor import PredictCard
@@ -40,20 +37,12 @@ class PipelineWorker(QThread):
 
         self.log("starting pipeline")
 
-        self.status_updated.emit(
-            f"Selected: {self.window.title}"
-        )
+        self.status_updated.emit(f"Selected: {self.window.title}")
         try:
-            capture = ScreenCapture(
-                CaptureConfig(
-                    fps=5,
-                    region=self.window.region
-                )
-            )
+            capture = ScreenCapture(CaptureConfig(fps=5, region=self.window.region))
         except Exception as e:
             self.log(f"Capture error: {e}")
             return
-
 
         self.log("Capture initialized")
 
@@ -67,9 +56,7 @@ class PipelineWorker(QThread):
 
                 self.log("Frame updated")
 
-                detections = self.detect_cards.detect_cards(
-                    frame
-                )
+                detections = self.detect_cards.detect_cards(frame)
 
                 self.log(f"Detected cards{len(detections)}")
 
@@ -78,53 +65,35 @@ class PipelineWorker(QThread):
                 for detection in detections:
                     crop = detection.crop(frame)
 
-                    card_name = self.predict_card.predict(
-                        crop
-                    )
+                    card_name = self.predict_card.predict(crop)
 
                     recognized_cards.append(
-                        RecognizedCard(
-                            card=card_name,
-                            detection=detection
-                        )
+                        RecognizedCard(card=card_name, detection=detection)
                     )
 
-                grouped_cards = self.grouper.group(
-                    recognized_cards
-                )
+                grouped_cards = self.grouper.group(recognized_cards)
 
                 self.log("Group updated")
 
-                state = self.builder.update(
-                    grouped_cards
-                )
+                state = self.builder.update(grouped_cards)
 
                 self.log(f"Hand={state.hand}, Board={state.board}")
 
                 try:
-                    odds = self.calculator.calculate(
-                        state
-                    )
+                    odds = self.calculator.calculate(state)
 
                 except DuplicatedCardError as e:
 
                     self.log(f"Duplicated card: {e}")
 
-                    self.error_updated.emit(
-                        str(e)
-                    )
+                    self.error_updated.emit(str(e))
                     continue
-
 
                 self.log("Odds calculated")
 
-                self.state_updated.emit(
-                    state,
-                    odds
-                )
+                self.state_updated.emit(state, odds)
 
                 self.log("state updated")
-                
 
             except Exception as e:
                 self.log(f"Frame processing: {e}")
@@ -134,6 +103,4 @@ class PipelineWorker(QThread):
         self.log_updated.emit(message)
 
         with self.LOG_FILE.open("a", encoding="utf-8") as f:
-           f.write(f"{message}\n")
-
-
+            f.write(f"{message}\n")

@@ -41,7 +41,7 @@ class StraightOddsCalculator(BaseOddsCalculator):
 
         consecutive = 1
         for i in range(1, len(rank_indices)):
-            if rank_indices[i] == rank_indices[i-1] + 1:
+            if rank_indices[i] == rank_indices[i - 1] + 1:
                 consecutive += 1
                 if consecutive >= 5:
                     return True
@@ -60,7 +60,7 @@ class StraightOddsCalculator(BaseOddsCalculator):
 
         consecutive = 1
         for i in range(1, len(rank_indices)):
-            if rank_indices[i] == rank_indices[i-1] + 1:
+            if rank_indices[i] == rank_indices[i - 1] + 1:
                 consecutive += 1
                 if consecutive >= 5:
                     return True

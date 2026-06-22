@@ -1,7 +1,4 @@
-from PyQt6.QtWidgets import (
-    QWidget,
-    QVBoxLayout
-)
+from PyQt6.QtWidgets import QWidget, QVBoxLayout
 
 from gui.card_widget import CardsWidget
 from gui.odds_widget import OddsWidget
@@ -17,22 +14,13 @@ class TableWidget(QWidget):
 
         layout = QVBoxLayout()
 
-        layout.addWidget(
-            self.cards_widget
-        )
+        layout.addWidget(self.cards_widget)
 
-        layout.addWidget(
-            self.odds_widget
-        )
+        layout.addWidget(self.odds_widget)
 
         self.setLayout(layout)
 
     def update_state(self, game, odds):
-        self.cards_widget.update_cards(
-            game.hand,
-            game.board
-        )
+        self.cards_widget.update_cards(game.hand, game.board)
 
-        self.odds_widget.update_odds(
-            odds
-        )
+        self.odds_widget.update_odds(odds)
