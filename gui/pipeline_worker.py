@@ -54,6 +54,8 @@ class PipelineWorker(QThread):
             if frame is None:
                 continue
 
+            frame = frame.copy()
+
             x1, y1, x2, y2 = self.window.region
 
             frame = frame[y1:y2, x1:x2]
@@ -75,6 +77,16 @@ class PipelineWorker(QThread):
 
                 for detection in detections:
                     crop = detection.crop(frame)
+
+                    self.log(
+                        f"Crop: {crop.shape} "
+                        f"({detection.x1}, {detection.y1}) "
+                        f"({detection.x2}, {detection.y2})"
+                    )
+
+                    if crop.size == 0:
+                        self.log("EMPTY CROP")
+                        continue
 
                     card_name = self.predict_card.predict(crop)
 

@@ -1,736 +1,619 @@
 starting pipeline
 Frame updated
+Detected cards4
+Crop: (47, 31, 3) (197, 229) (228, 276)
+Crop: (45, 29, 3) (253, 229) (282, 274)
+Crop: (45, 29, 3) (307, 229) (336, 274)
+Crop: (39, 29, 3) (290, 396) (319, 435)
+Group updated
+Hand=(), Board=()
+Frame processing: max() arg is an empty sequence
+starting pipeline
+Frame updated
 Detected cards2
+Crop: (46, 29, 3) (338, 405) (367, 451)
+Crop: (49, 31, 3) (300, 407) (331, 456)
 Group updated
-Hand=('Jd', 'Js'), Board=()
+Hand=('9s', 'Qc'), Board=()
 Odds calculated
 state updated
 Frame updated
-Detected cards5
+Detected cards0
 Group updated
-Hand=('Js', 'Kd'), Board=('9c', '8d', 'Jd')
+Hand=('9s', 'Qc'), Board=()
 Odds calculated
 state updated
 Frame updated
-Detected cards6
+Detected cards0
 Group updated
-Hand=('Js', 'Kd'), Board=('9c', '8d', 'Jd', 'Ac')
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Crop: (46, 29, 3) (338, 405) (367, 451)
+Crop: (49, 31, 3) (300, 407) (331, 456)
+Group updated
+Hand=('9s', 'Qc'), Board=()
 Odds calculated
 state updated
 starting pipeline
 Frame updated
-Detected cards2
-Group updated
-Hand=('Jd', 'Jc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Jd', 'Jc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Jd', 'Jc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Jd', 'Jc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Jd', 'Jc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Jd', 'Jc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Jd', 'Jc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Jd', 'Jc'), Board=()
-Odds calculated
-state updated
 Frame updated
 Detected cards2
-Group updated
-Hand=('Ks', '3s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ks', '3s'), Board=()
-Odds calculated
-state updated
-Frame updated
+Crop: (45, 27, 3) (337, 406) (364, 451)
 Detected cards2
+Crop: (37, 25, 3) (275, 361) (300, 398)
+Crop: (46, 29, 3) (300, 408) (329, 454)
+Crop: (39, 25, 3) (305, 358) (330, 397)
 Group updated
 Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
 Frame updated
-Detected cards2
 Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Frame updated
-Detected cards6
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('Jc', '8d', 'Jd', '3s')
+Hand=('9c', '3s'), Board=()
 Odds calculated
 state updated
-Frame updated
-Detected cards6
+Detected cards0
 Group updated
-Hand=('Js', 'Kd'), Board=('Jc', '8d', 'Jd', '3s')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('Jc', '8d', 'Jd', '3s')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('Jc', '8d', 'Jd', 'Ac')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('Jc', '8d', 'Jd', '3s')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('Jc', '8d', 'Jd', '3s')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('Jc', '8d', 'Jd', '3s')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('Jc', '8d', 'Jd', '3s')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('Jc', '8d', 'Jd', '3s')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('Jc', '8d', 'Jd', '3s')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('Jc', '8d', 'Jd', '3s')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('Jc', '8d', 'Jd', '3s')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('Jc', '8d', 'Jd', '3s')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('Jc', '8d', 'Jd', '3s')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('Jc', '8d', 'Jd', '3s')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('Jc', '8d', 'Jd', '3s')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('Jc', '8d', 'Jd', '3s')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('Jc', '8d', 'Jd', '3s')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('Jc', '8d', 'Jd', '3s')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('9c', '8d', 'Jd', 'Ac')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Kd'), Board=('9c', '8d', 'Jd', 'Ac')
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('Ac', 'Js'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Js', 'Jd'), Board=('Jc', 'Jd', '8d', 'Ac')
+Hand=('9s', 'Qc'), Board=()
 Odds calculated
 state updated
 Frame updated
 Detected cards0
 Group updated
-Hand=('Js', 'Jd'), Board=('Jc', 'Jd', '8d', 'Ac')
+Hand=('9s', 'Qc'), Board=()
 Odds calculated
 state updated
 Frame updated
-Detected cards6
+Detected cards0
 Group updated
-Hand=('Js', 'Jd'), Board=('Jc', 'Jd', '8d', '3s')
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Crop: (46, 29, 3) (338, 405) (367, 451)
+Crop: (49, 31, 3) (300, 407) (331, 456)
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Crop: (47, 30, 3) (300, 408) (330, 455)
+Crop: (46, 29, 3) (338, 405) (367, 451)
+Group updated
+Hand=('8s', '9s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Crop: (46, 29, 3) (338, 405) (367, 451)
+Crop: (48, 30, 3) (300, 407) (330, 455)
+Group updated
+Hand=('9s', '8s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Crop: (46, 29, 3) (338, 405) (367, 451)
+Crop: (46, 30, 3) (300, 408) (330, 454)
+Group updated
+Hand=('9s', '8s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Crop: (47, 30, 3) (300, 408) (330, 455)
+Crop: (46, 29, 3) (338, 405) (367, 451)
+Group updated
+Hand=('8s', '9s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Crop: (46, 29, 3) (338, 405) (367, 451)
+Crop: (49, 31, 3) (300, 407) (331, 456)
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('9s', 'Qc'), Board=()
 Odds calculated
 state updated
 Frame updated
 Detected cards4
+Crop: (47, 31, 3) (197, 229) (228, 276)
+Detected cards0
 Group updated
-Hand=('Js', 'Jd'), Board=('Jc', 'Jd', '8d', '3s')
+Hand=('9s', 'Qc'), Board=()
 Odds calculated
+state updated
+Frame updated
+Crop: (45, 29, 3) (253, 229) (282, 274)
+Crop: (45, 29, 3) (307, 229) (336, 274)
+Crop: (39, 29, 3) (290, 396) (319, 435)
+Detected cards0
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Group updated
+Hand=(), Board=()
+Frame processing: max() arg is an empty sequence
+Frame updated
+Detected cards0
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Frame updated
+Detected cards4
+Crop: (47, 31, 3) (197, 229) (228, 276)
+Detected cards0
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Crop: (45, 29, 3) (253, 229) (282, 274)
+Crop: (45, 29, 3) (307, 229) (336, 274)
+Crop: (39, 29, 3) (290, 396) (319, 435)
+Group updated
+Hand=(), Board=()
+Frame processing: max() arg is an empty sequence
+Detected cards2
+Crop: (46, 29, 3) (338, 405) (367, 451)
+Crop: (49, 31, 3) (300, 407) (331, 456)
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Frame updated
+Frame updated
+Detected cards0
+Detected cards0
+Group updated
+Group updated
+Hand=(), Board=()
+Hand=('9s', 'Qc'), Board=()
+Frame processing: max() arg is an empty sequence
+Odds calculated
+Detected cards0
+state updated
+Group updated
+Frame updated
+Hand=('9c', '3s'), Board=()
+Odds calculated
+Frame updated
 state updated
 Frame updated
 Detected cards4
+Crop: (47, 31, 3) (197, 229) (228, 276)
+Detected cards2
+Crop: (47, 30, 3) (300, 408) (330, 455)
+Detected cards2
+Crop: (37, 25, 3) (275, 361) (300, 398)
+Crop: (45, 29, 3) (253, 229) (282, 274)
+Crop: (39, 25, 3) (305, 358) (330, 397)
+Crop: (46, 29, 3) (338, 405) (367, 451)
+Crop: (45, 29, 3) (307, 229) (336, 274)
 Group updated
-Hand=('Js', 'Jd'), Board=('Jc', 'Jd', '8d', '3s')
+Hand=('9c', '3s'), Board=()
 Odds calculated
 state updated
-Frame updated
-Detected cards4
 Group updated
-Hand=('Js', 'Jd'), Board=('Jc', 'Jd', '8d', '3s')
+Hand=('8s', '9s'), Board=()
 Odds calculated
 state updated
-Frame updated
-Detected cards5
+Crop: (39, 29, 3) (290, 396) (319, 435)
 Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Hand=(), Board=()
+Frame processing: max() arg is an empty sequence
+starting pipeline
 Frame updated
-Detected cards5
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
 Frame updated
 Detected cards2
+Crop: (44, 27, 3) (337, 406) (364, 450)
+Detected cards2
+Crop: (37, 25, 3) (275, 361) (300, 398)
+Crop: (46, 30, 3) (300, 408) (330, 454)
+Crop: (39, 25, 3) (305, 358) (330, 397)
 Group updated
-Hand=('Ks', '3s'), Board=()
+Hand=('3s', '8s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Group updated
+Hand=('9c', '3s'), Board=()
+Odds calculated
+state updated
+Detected cards0
+Group updated
+Hand=('3s', '8s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('3s', '8s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards1
+Crop: (48, 31, 3) (300, 407) (331, 455)
+Group updated
+Hand=('3s', '8s'), Board=()
 Odds calculated
 state updated
 Frame updated
 Detected cards2
+Crop: (46, 29, 3) (338, 405) (367, 451)
+Crop: (49, 31, 3) (300, 407) (331, 456)
 Group updated
-Hand=('3s', '9c'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Frame updated
-Detected cards5
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Frame updated
-Detected cards0
-Group updated
-Hand=('3s', '9c'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('Ac', 'Ks'), Board=()
+Hand=('9s', 'Qc'), Board=()
 Odds calculated
 state updated
 Frame updated
 Detected cards0
 Group updated
-Hand=('Ac', 'Ks'), Board=()
+Hand=('9s', 'Qc'), Board=()
 Odds calculated
 state updated
 Frame updated
 Detected cards0
 Group updated
-Hand=('Ac', 'Ks'), Board=()
+Hand=('9s', 'Qc'), Board=()
 Odds calculated
 state updated
 Frame updated
 Detected cards0
 Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards7
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Frame updated
-Detected cards7
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
+Hand=('9s', 'Qc'), Board=()
 Odds calculated
 state updated
 Frame updated
 Detected cards0
 Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ks', '3s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-Detected cards0
-Group updated
-state updated
-Hand=('Ks', '3s'), Board=()
-Frame updated
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ks', '3s'), Board=()
-Odds calculated
-state updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Detected cards5
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards3
-Group updated
-Hand=('Ks', '3s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Detected cards3
-Group updated
-Hand=('Ks', '3s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards4
-Group updated
-Hand=('Ac', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards7
-Detected cards3
-Group updated
-Hand=('Ks', '3s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Detected cards3
-Group updated
-Hand=('Ks', '3s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards3
-Group updated
-Hand=('Ks', '3s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards3
-Group updated
-Hand=('Ks', '3s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards3
-Group updated
-Hand=('Ks', '3s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards3
-Group updated
-Hand=('Ks', '3s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards3
-Group updated
-Hand=('Ks', '3s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards3
-Group updated
-Hand=('Ks', '3s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards3
-Group updated
-Hand=('Ks', '3s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards3
-Group updated
-Hand=('Ks', '3s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards3
-Group updated
-Hand=('Ks', '3s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards3
-Group updated
-Hand=('Ks', '3s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards3
-Group updated
-Hand=('Ks', '3s'), Board=()
+Hand=('9s', 'Qc'), Board=()
 Odds calculated
 state updated
 starting pipeline
 Frame updated
+Frame updated
+Detected cards2
+Crop: (37, 25, 3) (275, 361) (300, 398)
+Crop: (39, 25, 3) (305, 358) (330, 397)
+Detected cards0
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+Group updated
+state updated
+Hand=('9c', '3s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Crop: (46, 29, 3) (338, 405) (367, 451)
+Crop: (49, 31, 3) (300, 407) (331, 456)
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+starting pipeline
+Frame updated
+Frame updated
+Detected cards2
+Crop: (46, 29, 3) (338, 405) (367, 451)
+Crop: (49, 31, 3) (300, 407) (331, 456)
+Detected cards1
+Crop: (45, 28, 3) (337, 406) (365, 451)
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Detected cards0
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Detected cards0
+Odds calculated
+Hand=('9s', 'Qc'), Board=()
+state updated
+Odds calculated
+state updated
+Frame updated
+Frame updated
+Detected cards2
+Crop: (46, 29, 3) (338, 405) (367, 451)
+Detected cards2
+Crop: (46, 29, 3) (338, 405) (367, 451)
+Crop: (49, 31, 3) (300, 407) (331, 456)
+Crop: (49, 31, 3) (300, 407) (331, 456)
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Detected cards0
+Group updated
+Hand=('9s', 'Qc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Frame updated
+Detected cards2
+Crop: (47, 31, 3) (301, 408) (332, 455)
+Detected cards2
+Crop: (47, 31, 3) (301, 408) (332, 455)
+Crop: (46, 28, 3) (339, 405) (367, 451)
+Crop: (46, 28, 3) (339, 405) (367, 451)
+Group updated
+Hand=('Jc', '9s'), Board=()
+Odds calculated
+state updated
+Group updated
+Hand=('Jc', '9s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Jc', '9s'), Board=()
+Odds calculated
+state updated
+Detected cards0
+Group updated
+Hand=('Jc', '9s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Jc', '9s'), Board=()
+Odds calculated
+state updated
+Detected cards0
+Group updated
+Hand=('Jc', '9s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Frame updated
+Detected cards0
+Detected cards0
+Group updated
+Hand=('Jc', '9s'), Board=()
+Group updated
+Hand=('Jc', '9s'), Board=()
+Odds calculated
+Odds calculated
+state updated
+state updated
+Frame updated
+Frame updated
+Detected cards1
+Crop: (52, 33, 3) (346, 385) (379, 437)
+Detected cards1
+Crop: (52, 33, 3) (346, 385) (379, 437)
+Group updated
+Hand=('Jc', '9s'), Board=()
+Odds calculated
+state updated
+Group updated
+Hand=('Jc', '9s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Frame updated
+Detected cards2
+Crop: (46, 30, 3) (301, 408) (331, 454)
+Detected cards2
+Crop: (46, 30, 3) (301, 408) (331, 454)
+Crop: (46, 29, 3) (338, 405) (367, 451)
+Crop: (46, 29, 3) (338, 405) (367, 451)
+Group updated
+Hand=('3s', '9s'), Board=()
+Odds calculated
+state updated
+Group updated
+Hand=('3s', '9s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Frame updated
+Detected cards2
+Crop: (46, 31, 3) (301, 408) (332, 454)
+Detected cards2
+Crop: (46, 31, 3) (301, 408) (332, 454)
+Crop: (46, 30, 3) (338, 405) (368, 451)
+Crop: (46, 30, 3) (338, 405) (368, 451)
+Group updated
+Hand=('8s', '9s'), Board=()
+Odds calculated
+state updated
+Group updated
+Hand=('8s', '9s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Frame updated
 Detected cards5
+Crop: (47, 31, 3) (320, 253) (351, 300)
+Detected cards5
+Crop: (47, 31, 3) (320, 253) (351, 300)
+Crop: (46, 30, 3) (211, 253) (241, 299)
+Crop: (46, 30, 3) (211, 253) (241, 299)
+Crop: (44, 29, 3) (266, 254) (295, 298)
+Crop: (44, 29, 3) (266, 254) (295, 298)
+Crop: (47, 32, 3) (300, 407) (332, 454)
+Crop: (47, 32, 3) (300, 407) (332, 454)
+Crop: (46, 30, 3) (338, 405) (368, 451)
+Crop: (46, 30, 3) (338, 405) (368, 451)
+Group updated
+Group updated
+Hand=('9s', '3s'), Board=('8d', '3s', '8s')
+Hand=('9s', '3s'), Board=('8d', '3s', '8s')
+Odds calculated
+Odds calculated
+state updated
+state updated
+Frame updated
+Frame updated
+Detected cards6
+Crop: (47, 31, 3) (320, 253) (351, 300)
+Detected cards6
+Crop: (47, 31, 3) (320, 253) (351, 300)
+Crop: (46, 30, 3) (211, 253) (241, 299)
+Crop: (46, 30, 3) (211, 253) (241, 299)
+Crop: (44, 29, 3) (266, 254) (295, 298)
+Crop: (44, 29, 3) (266, 254) (295, 298)
+Crop: (46, 30, 3) (374, 253) (404, 299)
+Crop: (46, 30, 3) (374, 253) (404, 299)
+Crop: (47, 31, 3) (301, 408) (332, 455)
+Crop: (47, 31, 3) (301, 408) (332, 455)
+Crop: (47, 30, 3) (338, 404) (368, 451)
+Crop: (47, 30, 3) (338, 404) (368, 451)
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
 Group updated
 Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
 Frame updated
-Detected cards7
+Frame updated
+Detected cards6
+Crop: (47, 31, 3) (320, 253) (351, 300)
+Detected cards6
+Crop: (47, 31, 3) (320, 253) (351, 300)
+Crop: (46, 30, 3) (374, 253) (404, 299)
+Crop: (46, 30, 3) (374, 253) (404, 299)
+Crop: (44, 29, 3) (266, 254) (295, 298)
+Crop: (44, 29, 3) (266, 254) (295, 298)
+Crop: (47, 29, 3) (338, 404) (367, 451)
+Crop: (47, 29, 3) (338, 404) (367, 451)
+Crop: (47, 31, 3) (301, 408) (332, 455)
+Crop: (47, 31, 3) (301, 408) (332, 455)
+Crop: (47, 31, 3) (211, 253) (242, 300)
+Crop: (47, 31, 3) (211, 253) (242, 300)
 Group updated
 Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
 Frame updated
-Detected cards2
 Group updated
-Hand=('3s', 'Ks'), Board=()
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards5
+Crop: (46, 31, 3) (320, 253) (351, 299)
+Detected cards5
+Crop: (46, 31, 3) (320, 253) (351, 299)
+Crop: (45, 30, 3) (374, 254) (404, 299)
+Crop: (45, 30, 3) (374, 254) (404, 299)
+Crop: (44, 29, 3) (266, 254) (295, 298)
+Crop: (44, 29, 3) (266, 254) (295, 298)
+Crop: (45, 29, 3) (338, 405) (367, 450)
+Crop: (45, 29, 3) (338, 405) (367, 450)
+Crop: (46, 30, 3) (301, 408) (331, 454)
+Crop: (46, 30, 3) (301, 408) (331, 454)
+Group updated
+Hand=('9s', '3s'), Board=('3s', '8d', '8s')
+Odds calculated
+state updated
+Group updated
+Hand=('9s', '3s'), Board=('3s', '8d', '8s')
 Odds calculated
 state updated
 Frame updated
-Detected cards2
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
 Frame updated
-Detected cards2
+Detected cards5
+Crop: (47, 31, 3) (320, 253) (351, 300)
+Detected cards5
+Crop: (47, 31, 3) (320, 253) (351, 300)
+Crop: (45, 30, 3) (374, 254) (404, 299)
+Crop: (45, 30, 3) (374, 254) (404, 299)
+Crop: (45, 30, 3) (265, 254) (295, 299)
+Crop: (45, 30, 3) (265, 254) (295, 299)
+Crop: (47, 29, 3) (338, 404) (367, 451)
+Crop: (47, 29, 3) (338, 404) (367, 451)
+Crop: (46, 31, 3) (301, 408) (332, 454)
+Crop: (46, 31, 3) (301, 408) (332, 454)
 Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
 Frame updated
-Detected cards2
 Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
 Frame updated
-Detected cards2
+Detected cards6
+Crop: (47, 31, 3) (320, 253) (351, 300)
+Detected cards6
+Crop: (47, 31, 3) (320, 253) (351, 300)
+Crop: (46, 30, 3) (211, 253) (241, 299)
+Crop: (46, 30, 3) (211, 253) (241, 299)
+Crop: (44, 29, 3) (266, 254) (295, 298)
+Crop: (44, 29, 3) (266, 254) (295, 298)
+Crop: (46, 30, 3) (374, 253) (404, 299)
+Crop: (46, 30, 3) (374, 253) (404, 299)
+Crop: (46, 29, 3) (338, 405) (367, 451)
+Crop: (46, 29, 3) (338, 405) (367, 451)
+Crop: (47, 31, 3) (301, 408) (332, 455)
+Crop: (47, 31, 3) (301, 408) (332, 455)
 Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards4
-Group updated
-Hand=('3s', 'Ks'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards7
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
 Group updated
 Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>

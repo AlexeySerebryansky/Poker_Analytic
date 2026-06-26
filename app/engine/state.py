@@ -49,7 +49,8 @@ class GameState:
     def _validate_cards(cards):
 
         if len(cards) != len(set(cards)):
-            raise DuplicatedCardError(duplicated_card_error)
+            duplicates = [card for card in set(cards) if cards.count(card) > 1]
+            raise DuplicatedCardError(duplicates)
 
     @staticmethod
     def _validate_card_format(cards):

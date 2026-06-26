@@ -10,7 +10,6 @@ from PyQt6.QtWidgets import (
 )
 
 from gui.log_window import LogWindow
-from gui.pipeline_worker import PipelineWorker
 from gui.stream_desctop import CaptureThread
 from gui.table_widget import TableWidget
 from stream_from_descktop.capture import ScreenCapture, CaptureConfig
@@ -27,7 +26,7 @@ class MainWindow(QMainWindow):
 
         self.resize(500, 400)
 
-        self.table = []
+        self.tables = []
 
         self.layout = QVBoxLayout()
 
@@ -70,26 +69,19 @@ class MainWindow(QMainWindow):
 
         self.log(f"Selected window: {selected_window.title}")
 
-        self.set_status(f"Selected window: {selected_window.title}")
+        table = TableWidget(
+            selected_window=selected_window,
+            capture=self.capture_thread
+        )
 
-        table = TableWidget()
+        self.log("Table added")
 
-        worker = PipelineWorker(selected_window, self.capture_thread)
+        table.show()
 
-        self.log("worker created")
-
-        worker.state_updated.connect(table.update_state)
-
-        worker.log_updated.connect(self.log_window.add_log)
-
-        worker.start()
-
-        self.log("worker started")
-
+        self.tables.append(table)
         self.set_status(f"Tracking: {selected_window.title}")
 
-        self.table.append({"widget": table, "worker": worker})
-        self.layout.addWidget(table)
+
 
     def set_status(self, text: str):
         self.status_label.setText(text)
