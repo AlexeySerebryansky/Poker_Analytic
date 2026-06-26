@@ -10,7 +10,7 @@ import torch.nn as nn
 
 
 def build_model():
-    model = models.mobilenet_v3_small(weights=False)
+    model = models.mobilenet_v3_small(weights=None)
 
     model.classifier[3] = nn.Linear(model.classifier[3].in_features, 52)
 

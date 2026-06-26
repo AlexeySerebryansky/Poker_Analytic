@@ -1,3 +1,4 @@
+import cv2
 import keyboard
 
 from calculating.odds_result import OddsCalculatorService
@@ -6,7 +7,8 @@ from engine.cards_grouper import CardGrouper
 from engine.detection_matcher import RecognizedCard
 from engine.state_builder import StateBuilder
 from exeptions.duplicated_card_error import DuplicatedCardError
-from stream_from_descktop.capture import ScreenCapture, CaptureConfig
+from stream_from_descktop.capture import ScreenStreamer
+from stream_from_descktop.region_of_interesting import TableStreamer
 from detection.detect_cards import DetectCards
 from stream_from_descktop.frame_stability import CenterRegionFilter
 from stream_from_descktop.windows_utils import WindowSelector
@@ -17,6 +19,8 @@ frame_filter = CenterRegionFilter()
 grouper = CardGrouper()
 builder = StateBuilder()
 calculator = OddsCalculatorService()
+screen_streamer = ScreenStreamer()
+
 
 print("Select window with your game and press F8")
 
@@ -26,9 +30,9 @@ window = WindowSelector.select_window()
 
 print(f"Selected{window.title}")
 
-capture = ScreenCapture(CaptureConfig(fps=5, region=window.region))
+capture = TableStreamer(screen_stream=screen_streamer, table_window=window)
 
-for frame in capture.stream():
+for frame in capture:
 
     if frame_filter.has_changed(frame):
 

@@ -9,11 +9,13 @@ from PyQt6.QtWidgets import (
     QApplication,
 )
 
+from gui.capture_worker import CaptureWorker
 from gui.log_window import LogWindow
 from gui.pipeline_worker import PipelineWorker
 from gui.table_widget import TableWidget
 
 from stream_from_descktop.windows_utils import WindowSelector
+from stream_from_descktop.capture import ScreenStreamer
 
 
 class MainWindow(QMainWindow):
@@ -28,6 +30,11 @@ class MainWindow(QMainWindow):
         self.table = []
 
         self.layout = QVBoxLayout()
+
+        self.streamer = ScreenStreamer(fps=10)
+        self.capture_worker = CaptureWorker(self.streamer)
+        print(self.capture_worker.isRunning())
+        self.capture_worker.start()
 
         buttons_layout = QHBoxLayout()
 
@@ -65,7 +72,7 @@ class MainWindow(QMainWindow):
 
         table = TableWidget()
 
-        worker = PipelineWorker(selected_window)
+        worker = PipelineWorker(selected_window, self.streamer)
 
         self.log("worker created")
 

@@ -1,98 +1,1644 @@
 starting pipeline
-Capture initialized
+Frame updated
+Detected cards7
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards7
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards7
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards7
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards7
+Group updated
+Hand=('Js', 'Ks'), Board=('Ac', '3s', 'Ks', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ks'), Board=('Ac', '3s', 'Ks', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ks'), Board=('Ac', '3s', 'Ks', 'Jd', 'Jc')
+Odds calculated
+state updated
 Frame updated
 Detected cards2
 Group updated
-Hand=('Ks', 'Jc'), Board=()
+Hand=('Ac', '6h'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Group updated
+Hand=('Ks', 'Ac'), Board=('3s', 'Jd', 'Jc', 'Ac')
 Odds calculated
 state updated
 Frame updated
 Detected cards0
 Group updated
-Hand=('Ks', 'Jc'), Board=()
+Hand=('Ks', 'Ac'), Board=('3s', 'Jd', 'Jc', 'Ac')
 Odds calculated
 state updated
+Frame updated
+Detected cards6
+Group updated
+Hand=('Ks', 'Ac'), Board=('3s', 'Jd', 'Jc', 'Ac')
+Odds calculated
+state updated
+starting pipeline
 Frame updated
 Detected cards0
 Group updated
-Hand=('Ks', 'Jc'), Board=()
-Odds calculated
-state updated
+Hand=(), Board=()
+Frame processing: max() arg is an empty sequence
 Frame updated
 Detected cards0
 Group updated
-Hand=('Ks', 'Jc'), Board=()
-Odds calculated
-state updated
+Hand=(), Board=()
+Frame processing: max() arg is an empty sequence
 Frame updated
 Detected cards0
 Group updated
-Hand=('Ks', 'Jc'), Board=()
-Odds calculated
-state updated
+Hand=(), Board=()
+Frame processing: max() arg is an empty sequence
 Frame updated
-Detected cards2
+Detected cards4
 Group updated
-Hand=('Jd', 'Qs'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards3
-Group updated
-Hand=('Jd', 'Qs'), Board=()
+Hand=('Ks', 'Ac'), Board=('3s', 'Jd', 'Jc', 'Ac')
 Odds calculated
 state updated
 Frame updated
 Detected cards4
 Group updated
-Hand=('Jd', 'Qs'), Board=()
+Hand=('Ks', 'Ac'), Board=('3s', 'Jd', 'Jc', 'Ac')
 Odds calculated
 state updated
 Frame updated
 Detected cards5
 Group updated
-Hand=('Qs', 'Jd'), Board=('Jc', '8d', 'Jd')
-Odds calculated
-state updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
 Frame updated
 Detected cards5
 Group updated
-Hand=('Qs', 'Jd'), Board=('9c', '8d', 'Jd')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Qs', 'Jd'), Board=('9c', '8d', 'Jd', 'Ks')
-Odds calculated
-state updated
-Frame updated
-Detected cards6
-Group updated
-Hand=('Qs', 'Jd'), Board=('9c', '8d', 'Jd', 'Ac')
+Hand=('Jc', 'Ac'), Board=('Ac', '3s', 'Jd')
 Odds calculated
 state updated
 Frame updated
 Detected cards2
 Group updated
-Hand=('Ac', 'Js'), Board=()
+Hand=('9c', 'Ks'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Jd', 'Ks'), Board=()
 Odds calculated
 state updated
 Frame updated
 Detected cards6
 Group updated
-Hand=('Js', 'Jd'), Board=('Jc', 'Jd', '8d', 'Ac')
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards5
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ac', 'Ks'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ac', 'Ks'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ac', 'Ks'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards7
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ac', 'Ks'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ac', 'Ks'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards3
+Group updated
+Hand=('Ac', 'Ks'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards3
+Group updated
+Hand=('Ac', 'Ks'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards5
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards5
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards5
+Frame updated
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Detected cards5
+Group updated
+Hand=('6h', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('6h', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('6h', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('6h', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('6h', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('6h', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Hand=('Js', 'Ac'), Board=('3s', 'Jd', 'Jc')
 Odds calculated
 state updated
 Frame updated
 Detected cards0
 Group updated
-Hand=('Js', 'Jd'), Board=('Jc', 'Jd', '8d', 'Ac')
+Hand=('Ks', 'Ac'), Board=()
 Odds calculated
 state updated
 Frame updated
 Detected cards6
 Group updated
-Hand=('Js', 'Jd'), Board=('Jc', 'Jd', '8d', '3s')
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards6
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards6
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards6
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards6
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards6
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards6
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards6
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards6
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards6
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards6
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards6
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards6
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards6
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards6
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards6
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards7
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards7
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards7
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Ac'), Board=()
 Odds calculated
 state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Ac'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Ac'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Ac'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Jc', '3s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Jc', '3s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Jc', '3s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Jc', '3s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('9c', '3s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ks', '3s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards1
+Group updated
+Hand=('Ks', '3s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', '3s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ks', '3s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('9c', '3s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('9c', '3s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('9c', 'Ks'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('9c', 'Ks'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('9c', 'Ks'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('9c', 'Ks'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('9c', 'Ks'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('9c', 'Ks'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('9c', 'Ks'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('9c', 'Ks'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('9c', 'Ks'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('9c', 'Ks'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Js', 'Ac'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Qs', 'Ac'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Qs', 'Ac'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Qs', 'Ac'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Qs', 'Ac'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards1
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards3
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards3
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards5
+Group updated
+Hand=('Jc', 'Ks'), Board=('9c', 'Jc', 'Ks')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards6
+Group updated
+Hand=('6h', 'Jd'), Board=('3s', 'Jd', 'Jc', 'Ac')
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Group updated
+Hand=('6h', 'Jd'), Board=('3s', 'Jd', 'Jc', 'Ac')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards5
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards5
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards6
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards7
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards7
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards6
+Group updated
+Hand=('Js', 'Kd'), Board=('3s', 'Jd', 'Jc', 'Ac')
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Group updated
+Hand=('Js', 'Kd'), Board=('3s', 'Jd', 'Jc', 'Ac')
+Odds calculated
+state updated
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ac', '6h'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Group updated
+Hand=('Ks', 'Ac'), Board=('3s', 'Jd', 'Jc', 'Ac')
+Odds calculated
+state updated
+Frame updated
+Detected cards0
+Group updated
+Hand=('Ks', 'Ac'), Board=('3s', 'Jd', 'Jc', 'Ac')
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Group updated
+Hand=('Ks', 'Ac'), Board=('3s', 'Jd', 'Jc', 'Ac')
+Odds calculated
+state updated
+Frame updated
+Detected cards4
+Group updated
+Hand=('Ks', 'Ac'), Board=('3s', 'Jd', 'Jc', 'Ac')
+Odds calculated
+state updated
+Frame updated
+Detected cards4
+Group updated
+Hand=('Ks', 'Ac'), Board=('3s', 'Jd', 'Jc', 'Ac')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards5
+Group updated
+Hand=('Jc', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards7
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards7
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards2
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards0
+Group updated
+Hand=('Jc', 'Ks'), Board=('9c', 'Jc', 'Ks')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards7
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards7
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards7
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame updated
+Detected cards7
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards0
+Group updated
+Hand=('Js', 'Ac'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards2
+Group updated
+Hand=('Ac', 'Ks'), Board=()
+Odds calculated
+state updated
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame updated
+Detected cards5
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Group updated
+Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
+Frame processing: (1400, 'GetWindowRect', 'Недопустимый дескриптор окна.')
