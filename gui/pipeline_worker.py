@@ -7,7 +7,6 @@ from detection.detect_cards import DetectCards
 from engine.cards_grouper import CardGrouper
 from engine.detection_matcher import RecognizedCard
 from engine.state_builder import StateBuilder
-from stream_from_descktop.capture import ScreenCapture, CaptureConfig
 from stream_from_descktop.frame_stability import CenterRegionFilter
 from exeptions.duplicated_card_error import DuplicatedCardError
 
@@ -20,7 +19,7 @@ class PipelineWorker(QThread):
 
     LOG_FILE = Path(__file__).parent / "log.txt"
 
-    def __init__(self, window):
+    def __init__(self, window, capture):
         super().__init__()
 
         self.detect_cards = DetectCards()
@@ -30,6 +29,7 @@ class PipelineWorker(QThread):
         self.builder = StateBuilder()
         self.calculator = OddsCalculatorService()
         self.window = window
+        self.capture = capture
 
         self.running = True
 
@@ -38,15 +38,26 @@ class PipelineWorker(QThread):
         self.log("starting pipeline")
 
         self.status_updated.emit(f"Selected: {self.window.title}")
-        try:
-            capture = ScreenCapture(CaptureConfig(fps=5, region=self.window.region))
-        except Exception as e:
-            self.log(f"Capture error: {e}")
-            return
 
-        self.log("Capture initialized")
+        last_frame = -1
 
-        for frame in capture.stream():
+        while self.running:
+
+            if self.capture.frame_number == last_frame:
+                QThread.msleep(1)
+                continue
+
+            last_frame = self.capture.frame_number
+
+            frame = self.capture.latest_frame
+
+            if frame is None:
+                continue
+
+            x1, y1, x2, y2 = self.window.region
+
+            frame = frame[y1:y2, x1:x2]
+
             try:
                 if not self.running:
                     break

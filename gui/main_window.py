@@ -11,7 +11,9 @@ from PyQt6.QtWidgets import (
 
 from gui.log_window import LogWindow
 from gui.pipeline_worker import PipelineWorker
+from gui.stream_desctop import CaptureThread
 from gui.table_widget import TableWidget
+from stream_from_descktop.capture import ScreenCapture, CaptureConfig
 
 from stream_from_descktop.windows_utils import WindowSelector
 
@@ -48,6 +50,13 @@ class MainWindow(QMainWindow):
 
         self.log_window = LogWindow()
 
+        self.capture = ScreenCapture(
+            CaptureConfig(fps=15, region=None)
+        )
+
+        self.capture_thread = CaptureThread(self.capture)
+        self.capture_thread.start()
+
     def add_table(self):
         self.log("add table")
 
@@ -65,7 +74,7 @@ class MainWindow(QMainWindow):
 
         table = TableWidget()
 
-        worker = PipelineWorker(selected_window)
+        worker = PipelineWorker(selected_window, self.capture_thread)
 
         self.log("worker created")
 

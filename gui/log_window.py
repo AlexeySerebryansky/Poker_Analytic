@@ -4,7 +4,7 @@ from PyQt6.QtWidgets import QWidget, QTextEdit, QVBoxLayout
 
 class LogWindow(QWidget):
 
-    MAX_LINES = 1000
+    MAX_LINES = 100
 
     def __init__(self):
         super().__init__()
@@ -12,8 +12,9 @@ class LogWindow(QWidget):
         self.setWindowTitle("Logs")
 
         self.text = QTextEdit()
-
         self.text.setReadOnly(True)
+
+        self.text.document().setMaximumBlockCount(self.MAX_LINES)
 
         layout = QVBoxLayout()
 
@@ -30,17 +31,11 @@ class LogWindow(QWidget):
         document = self.text.document()
 
         while document.blockCount() > self.MAX_LINES:
-            cursor = self.text.textCursor()
-
-            cursor.movePosition(cursor.MoveOperation.Start)
-            cursor.select(cursor.SelectionType.BlockUnderCursor)
-            cursor.removeSelectedText()
-            cursor.deleteChar()
 
             timestamp = datetime.now().strftime("%H:%M:%S")
 
             self.text.append(f"[{timestamp}] {message}")
 
-            self.text.verticalScrollBar().setValue(
-                self.text.verticalScrollBar().maximum()
-            )
+            scrollbar = self.text.verticalScrollBar()
+
+            scrollbar.setValue(scrollbar.maximum())
