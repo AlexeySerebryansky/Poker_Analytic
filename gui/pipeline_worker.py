@@ -7,8 +7,8 @@ from detection.detect_cards import DetectCards
 from engine.cards_grouper import CardGrouper
 from engine.detection_matcher import RecognizedCard
 from engine.state_builder import StateBuilder
+from exeptions.exeptions import GameStateError
 from stream_from_descktop.frame_stability import CenterRegionFilter
-from exeptions.duplicated_card_error import DuplicatedCardError
 
 
 class PipelineWorker(QThread):
@@ -96,23 +96,32 @@ class PipelineWorker(QThread):
 
                 grouped_cards = self.grouper.group(recognized_cards)
 
-                self.log("Group updated")
-
-                state = self.builder.update(grouped_cards)
-
-                self.log(f"Hand={state.hand}, Board={state.board}")
+                self.log(f"Grouped hand: {grouped_cards.hand}")
+                self.log(f"Grouped board: {grouped_cards.board}")
 
                 try:
+
+                    state = self.builder.update(grouped_cards)
+
+                    self.log(f"State hand: {state.hand}")
+                    self.log(f"State board: {state.board}")
+
+                    self.log(f"Hand={state.hand}, Board={state.board}")
+
                     odds = self.calculator.calculate(state)
 
-                except DuplicatedCardError as e:
-
-                    self.log(f"Duplicated card: {e}")
+                except GameStateError as e:
+                    self.log(str(e))
 
                     self.error_updated.emit(str(e))
+
+                    self.state_updated.emit(self.builder.state_game, None)
+
                     continue
 
                 self.log("Odds calculated")
+
+                self.error_updated.emit("")
 
                 self.state_updated.emit(state, odds)
 

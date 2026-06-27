@@ -4,7 +4,7 @@ from PyQt6.QtWidgets import QWidget, QTextEdit, QVBoxLayout
 
 class LogWindow(QWidget):
 
-    MAX_LINES = 100
+    MAX_LINES = 400
 
     def __init__(self):
         super().__init__()

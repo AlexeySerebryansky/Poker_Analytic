@@ -8,11 +8,15 @@ class CardsWidget(QWidget):
 
         self.hand_label = QLabel("Hand: -")
         self.board_label = QLabel("Board: -")
+        self.error_label = QLabel("Error: ")
+
+        self.error_label.setWordWrap(True)
 
         layout = QVBoxLayout()
 
         layout.addWidget(self.hand_label)
         layout.addWidget(self.board_label)
+        layout.addWidget(self.error_label)
 
         self.setLayout(layout)
 

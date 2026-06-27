@@ -1,4 +1,7 @@
-class DuplicatedCardError(Exception):
+from exeptions.exeptions import GameStateError
+
+
+class DuplicatedCardError(GameStateError):
     def __init__(self, cards: list[str]):
 
         self.cards = cards

@@ -1,8 +1,8 @@
 from PyQt6.QtWidgets import QVBoxLayout, QPushButton, QMainWindow, QWidget
 
-from gui.card_widget import CardsWidget
+from gui.widgets.card_widget import CardsWidget
 from gui.log_window import LogWindow
-from gui.odds_widget import OddsWidget
+from gui.widgets.odds_widget import OddsWidget
 from gui.pipeline_worker import PipelineWorker
 
 

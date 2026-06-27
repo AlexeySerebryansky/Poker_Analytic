@@ -1,619 +1,413 @@
 starting pipeline
 Frame updated
-Detected cards4
-Crop: (47, 31, 3) (197, 229) (228, 276)
-Crop: (45, 29, 3) (253, 229) (282, 274)
-Crop: (45, 29, 3) (307, 229) (336, 274)
-Crop: (39, 29, 3) (290, 396) (319, 435)
-Group updated
+Detected cards5
+Crop: (76, 51, 3) (494, 410) (545, 486)
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (75, 49, 3) (462, 663) (511, 738)
+Crop: (77, 49, 3) (523, 658) (572, 735)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8875129222869873)), RecognizedCard(card='Ks', detection=DetectedCard(x1=462, y1=663, x2=511, y2=738, confidence=0.928985059261322))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.946600615978241)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9372830390930176)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=545, y2=486, confidence=0.9471926689147949))]
+Duplicate cards detected: GroupedCards(hand=[RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8875129222869873)), RecognizedCard(card='Ks', detection=DetectedCard(x1=462, y1=663, x2=511, y2=738, confidence=0.928985059261322))], board=[RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.946600615978241)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9372830390930176)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=545, y2=486, confidence=0.9471926689147949))])
+Frame processing: PipelineWorker.state_updated[object, dict].emit(): argument 2 has unexpected type 'NoneType'
+Frame updated
+Detected cards5
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (75, 49, 3) (462, 663) (511, 738)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (76, 48, 3) (523, 659) (571, 735)
+Crop: (72, 42, 3) (492, 410) (534, 482)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=659, x2=571, y2=735, confidence=0.8883324861526489)), RecognizedCard(card='Ks', detection=DetectedCard(x1=462, y1=663, x2=511, y2=738, confidence=0.9342181086540222))]
+Grouped board: [RecognizedCard(card='Jd', detection=DetectedCard(x1=492, y1=410, x2=534, y2=482, confidence=0.8425809741020203)), RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9449059963226318)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9337924718856812))]
+Duplicate cards detected: GroupedCards(hand=[RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=659, x2=571, y2=735, confidence=0.8883324861526489)), RecognizedCard(card='Ks', detection=DetectedCard(x1=462, y1=663, x2=511, y2=738, confidence=0.9342181086540222))], board=[RecognizedCard(card='Jd', detection=DetectedCard(x1=492, y1=410, x2=534, y2=482, confidence=0.8425809741020203)), RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9449059963226318)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9337924718856812))])
+Frame processing: PipelineWorker.state_updated[object, dict].emit(): argument 2 has unexpected type 'NoneType'
+Frame updated
+Detected cards5
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (75, 49, 3) (462, 663) (511, 738)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (76, 48, 3) (523, 659) (571, 735)
+Crop: (73, 41, 3) (492, 409) (533, 482)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=659, x2=571, y2=735, confidence=0.8880739212036133)), RecognizedCard(card='Ks', detection=DetectedCard(x1=462, y1=663, x2=511, y2=738, confidence=0.9340963363647461))]
+Grouped board: [RecognizedCard(card='Jd', detection=DetectedCard(x1=492, y1=409, x2=533, y2=482, confidence=0.8314480781555176)), RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9453750848770142)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9336325526237488))]
+Duplicate cards detected: GroupedCards(hand=[RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=659, x2=571, y2=735, confidence=0.8880739212036133)), RecognizedCard(card='Ks', detection=DetectedCard(x1=462, y1=663, x2=511, y2=738, confidence=0.9340963363647461))], board=[RecognizedCard(card='Jd', detection=DetectedCard(x1=492, y1=409, x2=533, y2=482, confidence=0.8314480781555176)), RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9453750848770142)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9336325526237488))])
+Frame processing: PipelineWorker.state_updated[object, dict].emit(): argument 2 has unexpected type 'NoneType'
+Frame updated
+Detected cards5
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (76, 50, 3) (494, 410) (544, 486)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (74, 49, 3) (462, 664) (511, 738)
+Crop: (76, 49, 3) (523, 658) (572, 734)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=734, confidence=0.8800526261329651)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=738, confidence=0.9308717846870422))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9456297755241394)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.934440016746521)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9454475045204163))]
+State hand: ('Ks', '3s')
+State board: ('Ac', '3s', 'Jd')
+Hand=('Ks', '3s'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Crop: (76, 51, 3) (494, 410) (545, 486)
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (75, 49, 3) (462, 663) (511, 738)
+Crop: (77, 49, 3) (523, 658) (572, 735)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8874921798706055)), RecognizedCard(card='Ks', detection=DetectedCard(x1=462, y1=663, x2=511, y2=738, confidence=0.9290018677711487))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9465697407722473)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9372292160987854)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=545, y2=486, confidence=0.9471345543861389))]
+Duplicate cards detected: GroupedCards(hand=[RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8874921798706055)), RecognizedCard(card='Ks', detection=DetectedCard(x1=462, y1=663, x2=511, y2=738, confidence=0.9290018677711487))], board=[RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9465697407722473)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9372292160987854)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=545, y2=486, confidence=0.9471345543861389))])
+Frame processing: PipelineWorker.state_updated[object, dict].emit(): argument 2 has unexpected type 'NoneType'
+Frame updated
+Detected cards6
+Crop: (76, 50, 3) (494, 410) (544, 486)
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (75, 49, 3) (583, 410) (632, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (75, 49, 3) (462, 663) (511, 738)
+Crop: (77, 49, 3) (523, 658) (572, 735)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8839417695999146)), RecognizedCard(card='Ks', detection=DetectedCard(x1=462, y1=663, x2=511, y2=738, confidence=0.9296357035636902))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9468356966972351)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9422523379325867)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9371320009231567)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9479791522026062))]
+Duplicate cards detected: GroupedCards(hand=[RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8839417695999146)), RecognizedCard(card='Ks', detection=DetectedCard(x1=462, y1=663, x2=511, y2=738, confidence=0.9296357035636902))], board=[RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9468356966972351)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9422523379325867)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9371320009231567)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9479791522026062))])
+Frame processing: PipelineWorker.state_updated[object, dict].emit(): argument 2 has unexpected type 'NoneType'
+Frame updated
+Detected cards5
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (75, 49, 3) (462, 664) (511, 739)
+Crop: (75, 47, 3) (494, 410) (541, 485)
+Crop: (76, 47, 3) (524, 658) (571, 734)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=524, y1=658, x2=571, y2=734, confidence=0.8803867101669312)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=739, confidence=0.9311655759811401))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9457758665084839)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9344966411590576)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=541, y2=485, confidence=0.9129977822303772))]
+State hand: ('Ks', '3s')
+State board: ('Ac', '3s', 'Jd')
+Hand=('Ks', '3s'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (74, 49, 3) (462, 664) (511, 738)
+Crop: (76, 47, 3) (524, 658) (571, 734)
+Crop: (74, 43, 3) (493, 410) (536, 484)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=524, y1=658, x2=571, y2=734, confidence=0.8797968626022339)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=738, confidence=0.9311485886573792))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9455923438072205)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9343581795692444)), RecognizedCard(card='Jd', detection=DetectedCard(x1=493, y1=410, x2=536, y2=484, confidence=0.7850182056427002))]
+State hand: ('Ks', '3s')
+State board: ('Ac', '3s', 'Jd')
+Hand=('Ks', '3s'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (74, 49, 3) (462, 664) (511, 738)
+Crop: (76, 47, 3) (524, 658) (571, 734)
+Crop: (74, 43, 3) (493, 410) (536, 484)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=524, y1=658, x2=571, y2=734, confidence=0.8798247575759888)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=738, confidence=0.9310641884803772))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9456163644790649)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9343937039375305)), RecognizedCard(card='Jd', detection=DetectedCard(x1=493, y1=410, x2=536, y2=484, confidence=0.7290388345718384))]
+State hand: ('Ks', '3s')
+State board: ('Ac', '3s', 'Jd')
+Hand=('Ks', '3s'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards5
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (74, 49, 3) (462, 664) (511, 738)
+Crop: (75, 47, 3) (493, 410) (540, 485)
+Crop: (76, 47, 3) (524, 658) (571, 734)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=524, y1=658, x2=571, y2=734, confidence=0.8795945644378662)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=738, confidence=0.9313040971755981))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9455592036247253)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9345293045043945)), RecognizedCard(card='Jd', detection=DetectedCard(x1=493, y1=410, x2=540, y2=485, confidence=0.9207777976989746))]
+State hand: ('Ks', '3s')
+State board: ('Ac', '3s', 'Jd')
+Hand=('Ks', '3s'), Board=('Ac', '3s', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Crop: (76, 50, 3) (494, 410) (544, 486)
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (75, 49, 3) (583, 410) (632, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (75, 49, 3) (462, 664) (511, 739)
+Crop: (76, 47, 3) (524, 658) (571, 734)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=524, y1=658, x2=571, y2=734, confidence=0.8805604577064514)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=739, confidence=0.9307068586349487))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9464643001556396)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9386520981788635)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9358478784561157)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.946828305721283))]
+State hand: ('Ks', '3s')
+State board: ('Ac', 'Ks', '3s', 'Jd')
+Hand=('Ks', '3s'), Board=('Ac', 'Ks', '3s', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Crop: (76, 50, 3) (494, 410) (544, 486)
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (75, 49, 3) (583, 410) (632, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (76, 49, 3) (462, 663) (511, 739)
+Crop: (76, 47, 3) (524, 658) (571, 734)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=524, y1=658, x2=571, y2=734, confidence=0.8823338150978088)), RecognizedCard(card='Ks', detection=DetectedCard(x1=462, y1=663, x2=511, y2=739, confidence=0.9305630326271057))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9469660520553589)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9416865706443787)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9365823268890381)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9477869272232056))]
+Duplicate cards detected: GroupedCards(hand=[RecognizedCard(card='Ks', detection=DetectedCard(x1=524, y1=658, x2=571, y2=734, confidence=0.8823338150978088)), RecognizedCard(card='Ks', detection=DetectedCard(x1=462, y1=663, x2=511, y2=739, confidence=0.9305630326271057))], board=[RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9469660520553589)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9416865706443787)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9365823268890381)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9477869272232056))])
+Frame processing: PipelineWorker.state_updated[object, dict].emit(): argument 2 has unexpected type 'NoneType'
+Frame updated
+Detected cards6
+Crop: (76, 50, 3) (494, 410) (544, 486)
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (77, 51, 3) (582, 410) (633, 487)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (75, 49, 3) (462, 663) (511, 738)
+Crop: (77, 49, 3) (523, 658) (572, 735)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8891833424568176)), RecognizedCard(card='Ks', detection=DetectedCard(x1=462, y1=663, x2=511, y2=738, confidence=0.9304155707359314))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9468541741371155)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9371809363365173)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9479494094848633)), RecognizedCard(card='Jd', detection=DetectedCard(x1=582, y1=410, x2=633, y2=487, confidence=0.9462028741836548))]
+Duplicate cards detected: GroupedCards(hand=[RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8891833424568176)), RecognizedCard(card='Ks', detection=DetectedCard(x1=462, y1=663, x2=511, y2=738, confidence=0.9304155707359314))], board=[RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9468541741371155)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9371809363365173)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9479494094848633)), RecognizedCard(card='Jd', detection=DetectedCard(x1=582, y1=410, x2=633, y2=487, confidence=0.9462028741836548))])
+Frame processing: PipelineWorker.state_updated[object, dict].emit(): argument 2 has unexpected type 'NoneType'
+Frame updated
+Detected cards6
+Crop: (76, 50, 3) (494, 410) (544, 486)
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (75, 49, 3) (583, 410) (632, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (74, 49, 3) (462, 664) (511, 738)
+Crop: (77, 49, 3) (523, 658) (572, 735)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8836647272109985)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=738, confidence=0.9300878047943115))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9469740986824036)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9408792853355408)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.936834454536438)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9481497406959534))]
+State hand: ('Ks', '3s')
+State board: ('Ac', 'Ks', '3s', 'Jd')
+Hand=('Ks', '3s'), Board=('Ac', 'Ks', '3s', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Crop: (76, 50, 3) (494, 410) (544, 486)
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (75, 49, 3) (583, 410) (632, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (74, 49, 3) (462, 664) (511, 738)
+Crop: (77, 49, 3) (523, 658) (572, 735)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8834689855575562)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=738, confidence=0.9300746917724609))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9469953775405884)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9407570362091064)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.936866283416748)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9481706619262695))]
+State hand: ('Ks', '3s')
+State board: ('Ac', 'Ks', '3s', 'Jd')
+Hand=('Ks', '3s'), Board=('Ac', 'Ks', '3s', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Crop: (76, 50, 3) (494, 410) (544, 486)
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (75, 49, 3) (583, 410) (632, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (74, 49, 3) (462, 664) (511, 738)
+Crop: (77, 49, 3) (523, 658) (572, 735)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8834865689277649)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=738, confidence=0.9296331405639648))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9470705986022949)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9407007694244385)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9368223547935486)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9480887651443481))]
+State hand: ('Ks', '3s')
+State board: ('Ac', 'Ks', '3s', 'Jd')
+Hand=('Ks', '3s'), Board=('Ac', 'Ks', '3s', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Crop: (76, 50, 3) (494, 410) (544, 486)
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (75, 49, 3) (583, 410) (632, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (74, 49, 3) (462, 664) (511, 738)
+Crop: (77, 49, 3) (523, 658) (572, 735)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8833884596824646)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=738, confidence=0.9297889471054077))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9469947218894958)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9406856894493103)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9368526935577393)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9481660723686218))]
+State hand: ('Ks', '3s')
+State board: ('Ac', 'Ks', '3s', 'Jd')
+Hand=('Ks', '3s'), Board=('Ac', 'Ks', '3s', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Crop: (76, 50, 3) (494, 410) (544, 486)
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (75, 49, 3) (583, 410) (632, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (74, 49, 3) (462, 664) (511, 738)
+Crop: (77, 49, 3) (523, 658) (572, 735)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8833566308021545)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=738, confidence=0.9298490285873413))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.94701087474823)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9406694769859314)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.936879575252533)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9482445120811462))]
+State hand: ('Ks', '3s')
+State board: ('Ac', 'Ks', '3s', 'Jd')
+Hand=('Ks', '3s'), Board=('Ac', 'Ks', '3s', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Crop: (76, 50, 3) (494, 410) (544, 486)
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (75, 49, 3) (583, 410) (632, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (74, 49, 3) (462, 664) (511, 738)
+Crop: (77, 49, 3) (523, 658) (572, 735)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8832701444625854)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=738, confidence=0.9299962520599365))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9469740986824036)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9405688643455505)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.936832070350647)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9482089281082153))]
+State hand: ('Ks', '3s')
+State board: ('Ac', 'Ks', '3s', 'Jd')
+Hand=('Ks', '3s'), Board=('Ac', 'Ks', '3s', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Crop: (76, 50, 3) (494, 410) (544, 486)
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (75, 49, 3) (583, 410) (632, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (74, 49, 3) (462, 664) (511, 738)
+Crop: (77, 49, 3) (523, 658) (572, 735)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8833690881729126)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=738, confidence=0.9299942851066589))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9469867944717407)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9406235814094543)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9368542432785034)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9482496380805969))]
+State hand: ('Ks', '3s')
+State board: ('Ac', 'Ks', '3s', 'Jd')
+Hand=('Ks', '3s'), Board=('Ac', 'Ks', '3s', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Crop: (76, 50, 3) (494, 410) (544, 486)
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (75, 49, 3) (583, 410) (632, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (74, 49, 3) (462, 664) (511, 738)
+Crop: (77, 49, 3) (523, 658) (572, 735)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8833054900169373)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=738, confidence=0.9299777150154114))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9469778537750244)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9405616521835327)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9368391633033752)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9482231736183167))]
+State hand: ('Ks', '3s')
+State board: ('Ac', 'Ks', '3s', 'Jd')
+Hand=('Ks', '3s'), Board=('Ac', 'Ks', '3s', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Crop: (76, 50, 3) (494, 410) (544, 486)
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (75, 49, 3) (583, 410) (632, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (74, 49, 3) (462, 664) (511, 738)
+Crop: (77, 49, 3) (523, 658) (572, 735)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8832516074180603)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=738, confidence=0.9303733706474304))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9468389749526978)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9404401779174805)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9367418885231018)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9480932950973511))]
+State hand: ('Ks', '3s')
+State board: ('Ac', 'Ks', '3s', 'Jd')
+Hand=('Ks', '3s'), Board=('Ac', 'Ks', '3s', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Crop: (76, 50, 3) (494, 410) (544, 486)
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (75, 49, 3) (583, 410) (632, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (74, 49, 3) (462, 664) (511, 738)
+Crop: (77, 49, 3) (523, 658) (572, 735)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8834515810012817)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=738, confidence=0.9299799799919128))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.946972668170929)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9406630992889404)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9368456602096558)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.948213517665863))]
+State hand: ('Ks', '3s')
+State board: ('Ac', 'Ks', '3s', 'Jd')
+Hand=('Ks', '3s'), Board=('Ac', 'Ks', '3s', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards6
+Crop: (76, 50, 3) (494, 410) (544, 486)
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (75, 49, 3) (583, 410) (632, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (74, 49, 3) (462, 664) (511, 738)
+Crop: (77, 49, 3) (523, 658) (572, 735)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8834581971168518)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=738, confidence=0.9300047755241394))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9469680190086365)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9406518340110779)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9368448257446289)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9482107162475586))]
+State hand: ('Ks', '3s')
+State board: ('Ac', 'Ks', '3s', 'Jd')
+Hand=('Ks', '3s'), Board=('Ac', 'Ks', '3s', 'Jd')
+Odds calculated
+state updated
+Frame updated
+Detected cards7
+Crop: (76, 50, 3) (494, 410) (544, 486)
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (75, 49, 3) (583, 410) (632, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (74, 49, 3) (462, 664) (511, 738)
+Crop: (77, 49, 3) (523, 658) (572, 735)
+Crop: (70, 39, 3) (669, 410) (708, 480)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8834155797958374)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=738, confidence=0.9300656318664551))]
+Grouped board: [RecognizedCard(card='Ks', detection=DetectedCard(x1=669, y1=410, x2=708, y2=480, confidence=0.7532999515533447)), RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9470117092132568)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9404928088188171)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9368900656700134)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9482424855232239))]
+Duplicate cards detected: GroupedCards(hand=[RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8834155797958374)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=738, confidence=0.9300656318664551))], board=[RecognizedCard(card='Ks', detection=DetectedCard(x1=669, y1=410, x2=708, y2=480, confidence=0.7532999515533447)), RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9470117092132568)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9404928088188171)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9368900656700134)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9482424855232239))])
+Frame processing: PipelineWorker.state_updated[object, dict].emit(): argument 2 has unexpected type 'NoneType'
+Frame updated
+Detected cards7
+Crop: (76, 50, 3) (494, 410) (544, 486)
+Crop: (76, 50, 3) (313, 409) (363, 485)
+Crop: (75, 49, 3) (583, 410) (632, 485)
+Crop: (73, 48, 3) (404, 411) (452, 484)
+Crop: (73, 48, 3) (672, 411) (720, 484)
+Crop: (74, 49, 3) (462, 664) (511, 738)
+Crop: (77, 49, 3) (523, 658) (572, 735)
+Grouped hand: [RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8833376169204712)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=738, confidence=0.9297207593917847))]
+Grouped board: [RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9470712542533875)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9403948783874512)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9370154142379761)), RecognizedCard(card='Ks', detection=DetectedCard(x1=672, y1=411, x2=720, y2=484, confidence=0.9335693717002869)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9482060074806213))]
+Duplicate cards detected: GroupedCards(hand=[RecognizedCard(card='Ks', detection=DetectedCard(x1=523, y1=658, x2=572, y2=735, confidence=0.8833376169204712)), RecognizedCard(card='3s', detection=DetectedCard(x1=462, y1=664, x2=511, y2=738, confidence=0.9297207593917847))], board=[RecognizedCard(card='Ac', detection=DetectedCard(x1=313, y1=409, x2=363, y2=485, confidence=0.9470712542533875)), RecognizedCard(card='Ks', detection=DetectedCard(x1=583, y1=410, x2=632, y2=485, confidence=0.9403948783874512)), RecognizedCard(card='3s', detection=DetectedCard(x1=404, y1=411, x2=452, y2=484, confidence=0.9370154142379761)), RecognizedCard(card='Ks', detection=DetectedCard(x1=672, y1=411, x2=720, y2=484, confidence=0.9335693717002869)), RecognizedCard(card='Jd', detection=DetectedCard(x1=494, y1=410, x2=544, y2=486, confidence=0.9482060074806213))])
+Frame processing: PipelineWorker.state_updated[object, dict].emit(): argument 2 has unexpected type 'NoneType'
+Frame updated
+Detected cards0
+Grouped hand: []
+Grouped board: []
+State hand: ()
+State board: ()
 Hand=(), Board=()
 Frame processing: max() arg is an empty sequence
-starting pipeline
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
 Frame updated
 Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-starting pipeline
-Frame updated
-Frame updated
-Detected cards2
-Crop: (45, 27, 3) (337, 406) (364, 451)
-Detected cards2
-Crop: (37, 25, 3) (275, 361) (300, 398)
-Crop: (46, 29, 3) (300, 408) (329, 454)
-Crop: (39, 25, 3) (305, 358) (330, 397)
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Frame updated
-Group updated
-Hand=('9c', '3s'), Board=()
-Odds calculated
-state updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Crop: (47, 30, 3) (300, 408) (330, 455)
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Group updated
-Hand=('8s', '9s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (48, 30, 3) (300, 407) (330, 455)
-Group updated
-Hand=('9s', '8s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (46, 30, 3) (300, 408) (330, 454)
-Group updated
-Hand=('9s', '8s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Crop: (47, 30, 3) (300, 408) (330, 455)
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Group updated
-Hand=('8s', '9s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards4
-Crop: (47, 31, 3) (197, 229) (228, 276)
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Crop: (45, 29, 3) (253, 229) (282, 274)
-Crop: (45, 29, 3) (307, 229) (336, 274)
-Crop: (39, 29, 3) (290, 396) (319, 435)
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Group updated
+Grouped hand: []
+Grouped board: []
+State hand: ()
+State board: ()
 Hand=(), Board=()
 Frame processing: max() arg is an empty sequence
 Frame updated
 Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards4
-Crop: (47, 31, 3) (197, 229) (228, 276)
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Crop: (45, 29, 3) (253, 229) (282, 274)
-Crop: (45, 29, 3) (307, 229) (336, 274)
-Crop: (39, 29, 3) (290, 396) (319, 435)
-Group updated
+Grouped hand: []
+Grouped board: []
+State hand: ()
+State board: ()
 Hand=(), Board=()
 Frame processing: max() arg is an empty sequence
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
 Frame updated
 Detected cards0
-Detected cards0
-Group updated
-Group updated
-Hand=(), Board=()
-Hand=('9s', 'Qc'), Board=()
-Frame processing: max() arg is an empty sequence
-Odds calculated
-Detected cards0
-state updated
-Group updated
-Frame updated
-Hand=('9c', '3s'), Board=()
-Odds calculated
-Frame updated
-state updated
-Frame updated
-Detected cards4
-Crop: (47, 31, 3) (197, 229) (228, 276)
-Detected cards2
-Crop: (47, 30, 3) (300, 408) (330, 455)
-Detected cards2
-Crop: (37, 25, 3) (275, 361) (300, 398)
-Crop: (45, 29, 3) (253, 229) (282, 274)
-Crop: (39, 25, 3) (305, 358) (330, 397)
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (45, 29, 3) (307, 229) (336, 274)
-Group updated
-Hand=('9c', '3s'), Board=()
-Odds calculated
-state updated
-Group updated
-Hand=('8s', '9s'), Board=()
-Odds calculated
-state updated
-Crop: (39, 29, 3) (290, 396) (319, 435)
-Group updated
+Grouped hand: []
+Grouped board: []
+State hand: ()
+State board: ()
 Hand=(), Board=()
 Frame processing: max() arg is an empty sequence
-starting pipeline
-Frame updated
-Frame updated
-Detected cards2
-Crop: (44, 27, 3) (337, 406) (364, 450)
-Detected cards2
-Crop: (37, 25, 3) (275, 361) (300, 398)
-Crop: (46, 30, 3) (300, 408) (330, 454)
-Crop: (39, 25, 3) (305, 358) (330, 397)
-Group updated
-Hand=('3s', '8s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Group updated
-Hand=('9c', '3s'), Board=()
-Odds calculated
-state updated
-Detected cards0
-Group updated
-Hand=('3s', '8s'), Board=()
-Odds calculated
-state updated
 Frame updated
 Detected cards0
-Group updated
-Hand=('3s', '8s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards1
-Crop: (48, 31, 3) (300, 407) (331, 455)
-Group updated
-Hand=('3s', '8s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
+Grouped hand: []
+Grouped board: []
+State hand: ()
+State board: ()
+Hand=(), Board=()
+Frame processing: max() arg is an empty sequence
 Frame updated
 Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
+Grouped hand: []
+Grouped board: []
+State hand: ()
+State board: ()
+Hand=(), Board=()
+Frame processing: max() arg is an empty sequence
 Frame updated
 Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-starting pipeline
-Frame updated
-Frame updated
-Detected cards2
-Crop: (37, 25, 3) (275, 361) (300, 398)
-Crop: (39, 25, 3) (305, 358) (330, 397)
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-Group updated
-state updated
-Hand=('9c', '3s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-starting pipeline
-Frame updated
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Detected cards1
-Crop: (45, 28, 3) (337, 406) (365, 451)
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Detected cards0
-Odds calculated
-Hand=('9s', 'Qc'), Board=()
-state updated
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards2
-Crop: (47, 31, 3) (301, 408) (332, 455)
-Detected cards2
-Crop: (47, 31, 3) (301, 408) (332, 455)
-Crop: (46, 28, 3) (339, 405) (367, 451)
-Crop: (46, 28, 3) (339, 405) (367, 451)
-Group updated
-Hand=('Jc', '9s'), Board=()
-Odds calculated
-state updated
-Group updated
-Hand=('Jc', '9s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Jc', '9s'), Board=()
-Odds calculated
-state updated
-Detected cards0
-Group updated
-Hand=('Jc', '9s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Jc', '9s'), Board=()
-Odds calculated
-state updated
-Detected cards0
-Group updated
-Hand=('Jc', '9s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards0
-Detected cards0
-Group updated
-Hand=('Jc', '9s'), Board=()
-Group updated
-Hand=('Jc', '9s'), Board=()
-Odds calculated
-Odds calculated
-state updated
-state updated
-Frame updated
-Frame updated
-Detected cards1
-Crop: (52, 33, 3) (346, 385) (379, 437)
-Detected cards1
-Crop: (52, 33, 3) (346, 385) (379, 437)
-Group updated
-Hand=('Jc', '9s'), Board=()
-Odds calculated
-state updated
-Group updated
-Hand=('Jc', '9s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards2
-Crop: (46, 30, 3) (301, 408) (331, 454)
-Detected cards2
-Crop: (46, 30, 3) (301, 408) (331, 454)
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Group updated
-Hand=('3s', '9s'), Board=()
-Odds calculated
-state updated
-Group updated
-Hand=('3s', '9s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards2
-Crop: (46, 31, 3) (301, 408) (332, 454)
-Detected cards2
-Crop: (46, 31, 3) (301, 408) (332, 454)
-Crop: (46, 30, 3) (338, 405) (368, 451)
-Crop: (46, 30, 3) (338, 405) (368, 451)
-Group updated
-Hand=('8s', '9s'), Board=()
-Odds calculated
-state updated
-Group updated
-Hand=('8s', '9s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards5
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Detected cards5
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Crop: (46, 30, 3) (211, 253) (241, 299)
-Crop: (46, 30, 3) (211, 253) (241, 299)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (47, 32, 3) (300, 407) (332, 454)
-Crop: (47, 32, 3) (300, 407) (332, 454)
-Crop: (46, 30, 3) (338, 405) (368, 451)
-Crop: (46, 30, 3) (338, 405) (368, 451)
-Group updated
-Group updated
-Hand=('9s', '3s'), Board=('8d', '3s', '8s')
-Hand=('9s', '3s'), Board=('8d', '3s', '8s')
-Odds calculated
-Odds calculated
-state updated
-state updated
-Frame updated
-Frame updated
-Detected cards6
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Detected cards6
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Crop: (46, 30, 3) (211, 253) (241, 299)
-Crop: (46, 30, 3) (211, 253) (241, 299)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (46, 30, 3) (374, 253) (404, 299)
-Crop: (46, 30, 3) (374, 253) (404, 299)
-Crop: (47, 31, 3) (301, 408) (332, 455)
-Crop: (47, 31, 3) (301, 408) (332, 455)
-Crop: (47, 30, 3) (338, 404) (368, 451)
-Crop: (47, 30, 3) (338, 404) (368, 451)
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Frame updated
-Frame updated
-Detected cards6
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Detected cards6
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Crop: (46, 30, 3) (374, 253) (404, 299)
-Crop: (46, 30, 3) (374, 253) (404, 299)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (47, 29, 3) (338, 404) (367, 451)
-Crop: (47, 29, 3) (338, 404) (367, 451)
-Crop: (47, 31, 3) (301, 408) (332, 455)
-Crop: (47, 31, 3) (301, 408) (332, 455)
-Crop: (47, 31, 3) (211, 253) (242, 300)
-Crop: (47, 31, 3) (211, 253) (242, 300)
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Frame updated
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Frame updated
-Detected cards5
-Crop: (46, 31, 3) (320, 253) (351, 299)
-Detected cards5
-Crop: (46, 31, 3) (320, 253) (351, 299)
-Crop: (45, 30, 3) (374, 254) (404, 299)
-Crop: (45, 30, 3) (374, 254) (404, 299)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (45, 29, 3) (338, 405) (367, 450)
-Crop: (45, 29, 3) (338, 405) (367, 450)
-Crop: (46, 30, 3) (301, 408) (331, 454)
-Crop: (46, 30, 3) (301, 408) (331, 454)
-Group updated
-Hand=('9s', '3s'), Board=('3s', '8d', '8s')
-Odds calculated
-state updated
-Group updated
-Hand=('9s', '3s'), Board=('3s', '8d', '8s')
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards5
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Detected cards5
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Crop: (45, 30, 3) (374, 254) (404, 299)
-Crop: (45, 30, 3) (374, 254) (404, 299)
-Crop: (45, 30, 3) (265, 254) (295, 299)
-Crop: (45, 30, 3) (265, 254) (295, 299)
-Crop: (47, 29, 3) (338, 404) (367, 451)
-Crop: (47, 29, 3) (338, 404) (367, 451)
-Crop: (46, 31, 3) (301, 408) (332, 454)
-Crop: (46, 31, 3) (301, 408) (332, 454)
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Frame updated
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Frame updated
-Detected cards6
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Detected cards6
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Crop: (46, 30, 3) (211, 253) (241, 299)
-Crop: (46, 30, 3) (211, 253) (241, 299)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (46, 30, 3) (374, 253) (404, 299)
-Crop: (46, 30, 3) (374, 253) (404, 299)
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (47, 31, 3) (301, 408) (332, 455)
-Crop: (47, 31, 3) (301, 408) (332, 455)
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Grouped hand: []
+Grouped board: []
+State hand: ()
+State board: ()
+Hand=(), Board=()
+Frame processing: max() arg is an empty sequence
