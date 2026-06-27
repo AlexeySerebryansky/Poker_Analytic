@@ -218,3 +218,4 @@ __marimo__/
 .streamlit/secrets.toml
 .idea/
 helper_scripts/creater_dataset_classif/dataset
+gui/log.txt
