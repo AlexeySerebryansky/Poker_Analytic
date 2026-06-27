@@ -5,7 +5,7 @@ from classification.class_predictor import PredictCard
 from engine.cards_grouper import CardGrouper
 from engine.detection_matcher import RecognizedCard
 from engine.state_builder import StateBuilder
-from exeptions.duplicated_card_error import DuplicatedCardError
+from exeptions.exeptions.duplicated_card_error import DuplicatedCardError
 from stream_from_descktop.capture import ScreenCapture, CaptureConfig
 from detection.detect_cards import DetectCards
 from stream_from_descktop.frame_stability import CenterRegionFilter

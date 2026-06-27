@@ -1,3 +1,4 @@
+import traceback
 from pathlib import Path
 from PyQt6.QtCore import QThread, pyqtSignal
 
@@ -6,13 +7,14 @@ from classification.class_predictor import PredictCard
 from detection.detect_cards import DetectCards
 from engine.cards_grouper import CardGrouper
 from engine.detection_matcher import RecognizedCard
+from engine.state import GameState
 from engine.state_builder import StateBuilder
+from exeptions.game_state_error import GameStateError
 from stream_from_descktop.frame_stability import CenterRegionFilter
-from exeptions.duplicated_card_error import DuplicatedCardError
 
 
 class PipelineWorker(QThread):
-    state_updated = pyqtSignal(object, dict)
+    state_updated = pyqtSignal(object, object)
     status_updated = pyqtSignal(str)
     error_updated = pyqtSignal(str)
     log_updated = pyqtSignal(str)
@@ -36,8 +38,6 @@ class PipelineWorker(QThread):
     def run(self):
 
         self.log("starting pipeline")
-
-        self.status_updated.emit(f"Selected: {self.window.title}")
 
         last_frame = -1
 
@@ -71,7 +71,8 @@ class PipelineWorker(QThread):
 
                 detections = self.detect_cards.detect_cards(frame)
 
-                self.log(f"Detected cards{len(detections)}")
+                self.log(f"Detected cards {len(detections)}")
+                self.status_updated.emit(f"Detected cards: {len(detections)}")
 
                 recognized_cards = []
 
@@ -98,19 +99,24 @@ class PipelineWorker(QThread):
 
                 self.log("Group updated")
 
-                state = self.builder.update(grouped_cards)
-
-                self.log(f"Hand={state.hand}, Board={state.board}")
-
                 try:
-                    odds = self.calculator.calculate(state)
 
-                except DuplicatedCardError as e:
+                    state = self.builder.build(grouped_cards)
 
-                    self.log(f"Duplicated card: {e}")
+                    self.log(f"Hand={state.hand}, Board={state.board}")
 
-                    self.error_updated.emit(str(e))
+
+                except GameStateError as e:
+
+                    self.status_updated.emit(e.user_message)
+                    self.error_updated.emit(e)
+                    self.state_updated.emit(GameState(), None)
+
+                    self.log(f"Game state error: {e}")
+
                     continue
+
+                odds = self.calculator.calculate(state)
 
                 self.log("Odds calculated")
 
@@ -118,8 +124,8 @@ class PipelineWorker(QThread):
 
                 self.log("state updated")
 
-            except Exception as e:
-                self.log(f"Frame processing: {e}")
+            except Exception:
+                self.log(traceback.format_exc())
                 continue
 
     def log(self, message: str):

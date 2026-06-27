@@ -22,7 +22,7 @@ class StraightOddsCalculator(BaseOddsCalculator):
         for future_cards in combinations(unseen_cards, self.cards_to_come):
             total += 1
 
-            test_cards = self.cards + list(future_cards)
+            test_cards = self.cards + future_cards
 
             if self._check_straight_in_cards(test_cards):
                 favorable += 1

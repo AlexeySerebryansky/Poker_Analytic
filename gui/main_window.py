@@ -11,7 +11,7 @@ from PyQt6.QtWidgets import (
 
 from gui.log_window import LogWindow
 from gui.stream_desctop import CaptureThread
-from gui.table_widget import TableWidget
+from gui.table_window import TableWidget
 from stream_from_descktop.capture import ScreenCapture, CaptureConfig
 
 from stream_from_descktop.windows_utils import WindowSelector

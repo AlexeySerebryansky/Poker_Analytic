@@ -11,6 +11,9 @@ class FlushOddsCalculator(BaseOddsCalculator):
 
         unseen = self.unseen_cards_count
 
+        if not max_suit_count:
+            return 0
+
         if max_suit_count >= 5:
             return 100.0
 

@@ -1,619 +1,693 @@
 starting pipeline
 Frame updated
-Detected cards4
-Crop: (47, 31, 3) (197, 229) (228, 276)
-Crop: (45, 29, 3) (253, 229) (282, 274)
-Crop: (45, 29, 3) (307, 229) (336, 274)
-Crop: (39, 29, 3) (290, 396) (319, 435)
-Group updated
-Hand=(), Board=()
-Frame processing: max() arg is an empty sequence
-starting pipeline
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-starting pipeline
-Frame updated
-Frame updated
-Detected cards2
-Crop: (45, 27, 3) (337, 406) (364, 451)
-Detected cards2
-Crop: (37, 25, 3) (275, 361) (300, 398)
-Crop: (46, 29, 3) (300, 408) (329, 454)
-Crop: (39, 25, 3) (305, 358) (330, 397)
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Frame updated
-Group updated
-Hand=('9c', '3s'), Board=()
-Odds calculated
-state updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Crop: (47, 30, 3) (300, 408) (330, 455)
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Group updated
-Hand=('8s', '9s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (48, 30, 3) (300, 407) (330, 455)
-Group updated
-Hand=('9s', '8s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (46, 30, 3) (300, 408) (330, 454)
-Group updated
-Hand=('9s', '8s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Crop: (47, 30, 3) (300, 408) (330, 455)
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Group updated
-Hand=('8s', '9s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards4
-Crop: (47, 31, 3) (197, 229) (228, 276)
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Crop: (45, 29, 3) (253, 229) (282, 274)
-Crop: (45, 29, 3) (307, 229) (336, 274)
-Crop: (39, 29, 3) (290, 396) (319, 435)
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Group updated
-Hand=(), Board=()
-Frame processing: max() arg is an empty sequence
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards4
-Crop: (47, 31, 3) (197, 229) (228, 276)
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Crop: (45, 29, 3) (253, 229) (282, 274)
-Crop: (45, 29, 3) (307, 229) (336, 274)
-Crop: (39, 29, 3) (290, 396) (319, 435)
-Group updated
-Hand=(), Board=()
-Frame processing: max() arg is an empty sequence
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Frame updated
-Detected cards0
-Detected cards0
-Group updated
-Group updated
-Hand=(), Board=()
-Hand=('9s', 'Qc'), Board=()
-Frame processing: max() arg is an empty sequence
-Odds calculated
-Detected cards0
-state updated
-Group updated
-Frame updated
-Hand=('9c', '3s'), Board=()
-Odds calculated
-Frame updated
-state updated
-Frame updated
-Detected cards4
-Crop: (47, 31, 3) (197, 229) (228, 276)
-Detected cards2
-Crop: (47, 30, 3) (300, 408) (330, 455)
-Detected cards2
-Crop: (37, 25, 3) (275, 361) (300, 398)
-Crop: (45, 29, 3) (253, 229) (282, 274)
-Crop: (39, 25, 3) (305, 358) (330, 397)
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (45, 29, 3) (307, 229) (336, 274)
-Group updated
-Hand=('9c', '3s'), Board=()
-Odds calculated
-state updated
-Group updated
-Hand=('8s', '9s'), Board=()
-Odds calculated
-state updated
-Crop: (39, 29, 3) (290, 396) (319, 435)
-Group updated
-Hand=(), Board=()
-Frame processing: max() arg is an empty sequence
-starting pipeline
-Frame updated
-Frame updated
-Detected cards2
-Crop: (44, 27, 3) (337, 406) (364, 450)
-Detected cards2
-Crop: (37, 25, 3) (275, 361) (300, 398)
-Crop: (46, 30, 3) (300, 408) (330, 454)
-Crop: (39, 25, 3) (305, 358) (330, 397)
-Group updated
-Hand=('3s', '8s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Group updated
-Hand=('9c', '3s'), Board=()
-Odds calculated
-state updated
-Detected cards0
-Group updated
-Hand=('3s', '8s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('3s', '8s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards1
-Crop: (48, 31, 3) (300, 407) (331, 455)
-Group updated
-Hand=('3s', '8s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-starting pipeline
-Frame updated
-Frame updated
-Detected cards2
-Crop: (37, 25, 3) (275, 361) (300, 398)
-Crop: (39, 25, 3) (305, 358) (330, 397)
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-Group updated
-state updated
-Hand=('9c', '3s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-starting pipeline
-Frame updated
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Detected cards1
-Crop: (45, 28, 3) (337, 406) (365, 451)
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Detected cards0
-Odds calculated
-Hand=('9s', 'Qc'), Board=()
-state updated
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Detected cards2
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Crop: (49, 31, 3) (300, 407) (331, 456)
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Detected cards0
-Group updated
-Hand=('9s', 'Qc'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards2
-Crop: (47, 31, 3) (301, 408) (332, 455)
-Detected cards2
-Crop: (47, 31, 3) (301, 408) (332, 455)
-Crop: (46, 28, 3) (339, 405) (367, 451)
-Crop: (46, 28, 3) (339, 405) (367, 451)
-Group updated
-Hand=('Jc', '9s'), Board=()
-Odds calculated
-state updated
-Group updated
-Hand=('Jc', '9s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Jc', '9s'), Board=()
-Odds calculated
-state updated
-Detected cards0
-Group updated
-Hand=('Jc', '9s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards0
-Group updated
-Hand=('Jc', '9s'), Board=()
-Odds calculated
-state updated
-Detected cards0
-Group updated
-Hand=('Jc', '9s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards0
-Detected cards0
-Group updated
-Hand=('Jc', '9s'), Board=()
-Group updated
-Hand=('Jc', '9s'), Board=()
-Odds calculated
-Odds calculated
-state updated
-state updated
-Frame updated
-Frame updated
-Detected cards1
-Crop: (52, 33, 3) (346, 385) (379, 437)
-Detected cards1
-Crop: (52, 33, 3) (346, 385) (379, 437)
-Group updated
-Hand=('Jc', '9s'), Board=()
-Odds calculated
-state updated
-Group updated
-Hand=('Jc', '9s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards2
-Crop: (46, 30, 3) (301, 408) (331, 454)
-Detected cards2
-Crop: (46, 30, 3) (301, 408) (331, 454)
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Group updated
-Hand=('3s', '9s'), Board=()
-Odds calculated
-state updated
-Group updated
-Hand=('3s', '9s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards2
-Crop: (46, 31, 3) (301, 408) (332, 454)
-Detected cards2
-Crop: (46, 31, 3) (301, 408) (332, 454)
-Crop: (46, 30, 3) (338, 405) (368, 451)
-Crop: (46, 30, 3) (338, 405) (368, 451)
-Group updated
-Hand=('8s', '9s'), Board=()
-Odds calculated
-state updated
-Group updated
-Hand=('8s', '9s'), Board=()
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards5
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Detected cards5
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Crop: (46, 30, 3) (211, 253) (241, 299)
-Crop: (46, 30, 3) (211, 253) (241, 299)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (47, 32, 3) (300, 407) (332, 454)
-Crop: (47, 32, 3) (300, 407) (332, 454)
-Crop: (46, 30, 3) (338, 405) (368, 451)
-Crop: (46, 30, 3) (338, 405) (368, 451)
-Group updated
-Group updated
-Hand=('9s', '3s'), Board=('8d', '3s', '8s')
-Hand=('9s', '3s'), Board=('8d', '3s', '8s')
-Odds calculated
-Odds calculated
-state updated
-state updated
-Frame updated
-Frame updated
-Detected cards6
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Detected cards6
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Crop: (46, 30, 3) (211, 253) (241, 299)
-Crop: (46, 30, 3) (211, 253) (241, 299)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (46, 30, 3) (374, 253) (404, 299)
-Crop: (46, 30, 3) (374, 253) (404, 299)
-Crop: (47, 31, 3) (301, 408) (332, 455)
-Crop: (47, 31, 3) (301, 408) (332, 455)
-Crop: (47, 30, 3) (338, 404) (368, 451)
-Crop: (47, 30, 3) (338, 404) (368, 451)
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Frame updated
-Frame updated
-Detected cards6
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Detected cards6
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Crop: (46, 30, 3) (374, 253) (404, 299)
-Crop: (46, 30, 3) (374, 253) (404, 299)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (47, 29, 3) (338, 404) (367, 451)
-Crop: (47, 29, 3) (338, 404) (367, 451)
-Crop: (47, 31, 3) (301, 408) (332, 455)
-Crop: (47, 31, 3) (301, 408) (332, 455)
-Crop: (47, 31, 3) (211, 253) (242, 300)
-Crop: (47, 31, 3) (211, 253) (242, 300)
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Frame updated
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Frame updated
-Detected cards5
-Crop: (46, 31, 3) (320, 253) (351, 299)
-Detected cards5
-Crop: (46, 31, 3) (320, 253) (351, 299)
-Crop: (45, 30, 3) (374, 254) (404, 299)
-Crop: (45, 30, 3) (374, 254) (404, 299)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (45, 29, 3) (338, 405) (367, 450)
-Crop: (45, 29, 3) (338, 405) (367, 450)
-Crop: (46, 30, 3) (301, 408) (331, 454)
-Crop: (46, 30, 3) (301, 408) (331, 454)
-Group updated
-Hand=('9s', '3s'), Board=('3s', '8d', '8s')
-Odds calculated
-state updated
-Group updated
-Hand=('9s', '3s'), Board=('3s', '8d', '8s')
-Odds calculated
-state updated
-Frame updated
-Frame updated
-Detected cards5
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Detected cards5
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Crop: (45, 30, 3) (374, 254) (404, 299)
-Crop: (45, 30, 3) (374, 254) (404, 299)
-Crop: (45, 30, 3) (265, 254) (295, 299)
-Crop: (45, 30, 3) (265, 254) (295, 299)
-Crop: (47, 29, 3) (338, 404) (367, 451)
-Crop: (47, 29, 3) (338, 404) (367, 451)
-Crop: (46, 31, 3) (301, 408) (332, 454)
-Crop: (46, 31, 3) (301, 408) (332, 454)
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Frame updated
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Frame updated
-Detected cards6
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Detected cards6
-Crop: (47, 31, 3) (320, 253) (351, 300)
-Crop: (46, 30, 3) (211, 253) (241, 299)
-Crop: (46, 30, 3) (211, 253) (241, 299)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (44, 29, 3) (266, 254) (295, 298)
-Crop: (46, 30, 3) (374, 253) (404, 299)
-Crop: (46, 30, 3) (374, 253) (404, 299)
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (46, 29, 3) (338, 405) (367, 451)
-Crop: (47, 31, 3) (301, 408) (332, 455)
-Crop: (47, 31, 3) (301, 408) (332, 455)
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
-Group updated
-Frame processing: Duplicate cards detected: <module 'exeptions.duplicated_card_error' from 'D:\\Phyton\\Pocker_analytic\\Poker_Analytic\\app\\exeptions\\duplicated_card_error.py'>
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
+Frame updated
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
+Frame updated
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
+Frame updated
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
+Frame updated
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
+Frame updated
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
+Frame updated
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
+Frame updated
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
+Frame updated
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
+Frame updated
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
+Frame updated
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
+Frame updated
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
+Frame updated
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
+Frame updated
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
+Frame updated
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
+Frame updated
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
+Frame updated
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
+Frame updated
+Detected cards 2
+Crop: (64, 41, 3) (463, 531) (504, 595)
+Crop: (49, 40, 3) (410, 536) (450, 585)
+Group updated
+Hand=('Ks', 'Jc'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards 2
+Crop: (64, 41, 3) (463, 531) (504, 595)
+Crop: (47, 41, 3) (409, 536) (450, 583)
+Group updated
+Hand=('Ks', '3s'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards 5
+Crop: (68, 43, 3) (437, 311) (480, 379)
+Crop: (66, 44, 3) (278, 312) (322, 378)
+Crop: (65, 42, 3) (358, 313) (400, 378)
+Crop: (65, 42, 3) (463, 531) (505, 596)
+Crop: (50, 42, 3) (408, 536) (450, 586)
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 17, in build
+    self._validate_duplicates(hand, board)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 44, in _validate_duplicates
+    raise DuplicatedCardError(sorted(duplicates))
+exeptions.exeptions.duplicated_card_error.DuplicatedCardError: Duplicate cards detected: Jd, Ks
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'DuplicatedCardError'
+
+Frame updated
+Detected cards 2
+Crop: (65, 43, 3) (462, 531) (505, 596)
+Crop: (47, 43, 3) (408, 536) (451, 583)
+Group updated
+Hand=('Ks', 'Ac'), Board=()
+Odds calculated
+state updated
+Frame updated
+Detected cards 3
+Crop: (69, 46, 3) (278, 312) (324, 381)
+Crop: (65, 43, 3) (462, 531) (505, 596)
+Crop: (47, 41, 3) (409, 536) (450, 583)
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 16, in build
+    self._validate_board(board)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 31, in _validate_board
+    raise BoardCountError(len(board))
+exeptions.exeptions.board_count_error.BoardCountError: Detected invalid count cards on the board: 1
+
+Frame updated
+Detected cards 5
+Crop: (65, 42, 3) (366, 312) (408, 377)
+Crop: (65, 42, 3) (278, 313) (320, 378)
+Crop: (61, 38, 3) (324, 315) (362, 376)
+Crop: (64, 43, 3) (462, 531) (505, 595)
+Crop: (47, 41, 3) (409, 536) (450, 583)
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 17, in build
+    self._validate_duplicates(hand, board)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 44, in _validate_duplicates
+    raise DuplicatedCardError(sorted(duplicates))
+exeptions.exeptions.duplicated_card_error.DuplicatedCardError: Duplicate cards detected: 3s, Ks
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'DuplicatedCardError'
+
+Frame updated
+Detected cards 5
+Crop: (67, 44, 3) (278, 312) (322, 379)
+Crop: (67, 44, 3) (418, 312) (462, 379)
+Crop: (64, 40, 3) (350, 314) (390, 378)
+Crop: (65, 43, 3) (462, 531) (505, 596)
+Crop: (47, 41, 3) (409, 536) (450, 583)
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 17, in build
+    self._validate_duplicates(hand, board)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 44, in _validate_duplicates
+    raise DuplicatedCardError(sorted(duplicates))
+exeptions.exeptions.duplicated_card_error.DuplicatedCardError: Duplicate cards detected: 3s, Jd
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'DuplicatedCardError'
+
+Frame updated
+Detected cards 5
+Crop: (67, 44, 3) (278, 312) (322, 379)
+Crop: (68, 44, 3) (435, 311) (479, 379)
+Crop: (65, 42, 3) (357, 313) (399, 378)
+Crop: (65, 43, 3) (462, 531) (505, 596)
+Crop: (47, 41, 3) (409, 536) (450, 583)
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 17, in build
+    self._validate_duplicates(hand, board)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 44, in _validate_duplicates
+    raise DuplicatedCardError(sorted(duplicates))
+exeptions.exeptions.duplicated_card_error.DuplicatedCardError: Duplicate cards detected: Jd, Ks
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'DuplicatedCardError'
+
+Frame updated
+Detected cards 5
+Crop: (69, 44, 3) (436, 311) (480, 380)
+Crop: (66, 44, 3) (278, 312) (322, 378)
+Crop: (65, 42, 3) (358, 313) (400, 378)
+Crop: (65, 43, 3) (462, 531) (505, 596)
+Crop: (47, 41, 3) (409, 536) (450, 583)
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 17, in build
+    self._validate_duplicates(hand, board)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 44, in _validate_duplicates
+    raise DuplicatedCardError(sorted(duplicates))
+exeptions.exeptions.duplicated_card_error.DuplicatedCardError: Duplicate cards detected: Jd, Ks
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'DuplicatedCardError'
+
+Frame updated
+Detected cards 6
+Crop: (68, 43, 3) (437, 311) (480, 379)
+Crop: (66, 44, 3) (278, 312) (322, 378)
+Crop: (65, 42, 3) (358, 313) (400, 378)
+Crop: (67, 44, 3) (514, 312) (558, 379)
+Crop: (60, 42, 3) (409, 535) (451, 595)
+Crop: (63, 42, 3) (464, 531) (506, 594)
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 17, in build
+    self._validate_duplicates(hand, board)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 44, in _validate_duplicates
+    raise DuplicatedCardError(sorted(duplicates))
+exeptions.exeptions.duplicated_card_error.DuplicatedCardError: Duplicate cards detected: Jd, Ks
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'DuplicatedCardError'
+
+Frame updated
+Detected cards 6
+Crop: (67, 43, 3) (437, 312) (480, 379)
+Crop: (66, 44, 3) (278, 312) (322, 378)
+Crop: (65, 42, 3) (358, 313) (400, 378)
+Crop: (67, 43, 3) (514, 312) (557, 379)
+Crop: (59, 41, 3) (409, 535) (450, 594)
+Crop: (64, 44, 3) (462, 531) (506, 595)
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 17, in build
+    self._validate_duplicates(hand, board)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 44, in _validate_duplicates
+    raise DuplicatedCardError(sorted(duplicates))
+exeptions.exeptions.duplicated_card_error.DuplicatedCardError: Duplicate cards detected: Jd, Ks
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'DuplicatedCardError'
+
+Frame updated
+Detected cards 6
+Crop: (67, 43, 3) (437, 312) (480, 379)
+Crop: (66, 44, 3) (278, 312) (322, 378)
+Crop: (65, 42, 3) (358, 313) (400, 378)
+Crop: (67, 43, 3) (514, 312) (557, 379)
+Crop: (58, 41, 3) (409, 535) (450, 593)
+Crop: (62, 44, 3) (462, 531) (506, 593)
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 17, in build
+    self._validate_duplicates(hand, board)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 44, in _validate_duplicates
+    raise DuplicatedCardError(sorted(duplicates))
+exeptions.exeptions.duplicated_card_error.DuplicatedCardError: Duplicate cards detected: Jd, Ks
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'DuplicatedCardError'
+
+Frame updated
+Detected cards 7
+Crop: (67, 43, 3) (437, 312) (480, 379)
+Crop: (66, 44, 3) (278, 312) (322, 378)
+Crop: (65, 42, 3) (358, 313) (400, 378)
+Crop: (67, 43, 3) (514, 312) (557, 379)
+Crop: (58, 41, 3) (409, 535) (450, 593)
+Crop: (62, 33, 3) (592, 313) (625, 375)
+Crop: (66, 44, 3) (462, 531) (506, 597)
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 17, in build
+    self._validate_duplicates(hand, board)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 44, in _validate_duplicates
+    raise DuplicatedCardError(sorted(duplicates))
+exeptions.exeptions.duplicated_card_error.DuplicatedCardError: Duplicate cards detected: Jd, Ks
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'DuplicatedCardError'
+
+Frame updated
+Detected cards 7
+Crop: (67, 43, 3) (437, 312) (480, 379)
+Crop: (66, 44, 3) (278, 312) (322, 378)
+Crop: (65, 42, 3) (358, 313) (400, 378)
+Crop: (67, 43, 3) (514, 312) (557, 379)
+Crop: (62, 41, 3) (593, 314) (634, 376)
+Crop: (58, 41, 3) (409, 535) (450, 593)
+Crop: (65, 44, 3) (462, 531) (506, 596)
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 17, in build
+    self._validate_duplicates(hand, board)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 44, in _validate_duplicates
+    raise DuplicatedCardError(sorted(duplicates))
+exeptions.exeptions.duplicated_card_error.DuplicatedCardError: Duplicate cards detected: Jd, Ks
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'DuplicatedCardError'
+
+Frame updated
+Detected cards 7
+Crop: (67, 43, 3) (437, 312) (480, 379)
+Crop: (66, 44, 3) (278, 312) (322, 378)
+Crop: (65, 42, 3) (358, 313) (400, 378)
+Crop: (67, 43, 3) (514, 312) (557, 379)
+Crop: (64, 42, 3) (593, 313) (635, 377)
+Crop: (58, 41, 3) (409, 535) (450, 593)
+Crop: (65, 44, 3) (462, 531) (506, 596)
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 17, in build
+    self._validate_duplicates(hand, board)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 44, in _validate_duplicates
+    raise DuplicatedCardError(sorted(duplicates))
+exeptions.exeptions.duplicated_card_error.DuplicatedCardError: Duplicate cards detected: Jd, Ks
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'DuplicatedCardError'
+
+Frame updated
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
+Frame updated
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
+Frame updated
+Detected cards 0
+Group updated
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 104, in run
+    state = self.builder.build(grouped_cards)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 15, in build
+    self._validate_hand(hand)
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\app\engine\state_builder.py", line 26, in _validate_hand
+    raise HandCountError(len(hand))
+exeptions.exeptions.hand_count_error.HandCountError: Expected 2 cards in hand, detected 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Phyton\Pocker_analytic\Poker_Analytic\gui\pipeline_worker.py", line 112, in run
+    self.error_updated.emit(e)
+TypeError: PipelineWorker.error_updated[str].emit(): argument 1 has unexpected type 'HandCountError'
+
