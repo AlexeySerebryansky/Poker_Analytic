@@ -26,7 +26,7 @@ class PredictCard:
         self.model = build_model()
 
         mapping_path = Path(__file__).parent / "label_to_card.json"
-        weights_path = Path(__file__).parent / "best_model2.pth"
+        weights_path = Path(__file__).parent / "best_model_crop_image.pth"
 
         self.model.load_state_dict(torch.load(weights_path, map_location=self.device))
 

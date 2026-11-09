@@ -56,9 +56,28 @@ class PipelineWorker(QThread):
 
             frame = frame.copy()
 
+            self.log(f"Frame:, {frame.shape}")
+
             x1, y1, x2, y2 = self.window.region
 
+            h, w = frame.shape[:2]
+
+            x1 = max(0, x1)
+            y1 = max(0, y1)
+
+            x2 = min(w, x2)
+            y2 = min(h, y2)
+
+            self.log(
+                     f"Region: "
+                     f"{x1} {y1} {x2} {y2}"
+                     f"width: {x2-x1}"
+                     f"height: {y2-y1}"
+            )
+
             frame = frame[y1:y2, x1:x2]
+
+            self.log(f"Frame: {frame}")
 
             try:
                 if not self.running:
