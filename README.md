@@ -15,7 +15,9 @@ A desktop application for analysing poker games in real time using computer visi
 
 ## 📋 Description
 
-**Poker Analytics Assistant** — This is an intelligent poker assistant that captures the poker table screen, recognises cards using neural networks and calculates the mathematical odds of improving your hand in real time. The app helps you make informed decisions whilst playing by displaying the probabilities of making various poker hands.
+**Poker Analytics Assistant** — This is an intelligent poker assistant that captures the poker table screen, recognises
+cards using neural networks and calculates the mathematical odds of improving your hand in real time. The app helps you
+make informed decisions whilst playing by displaying the probabilities of making various poker hands.
 
 ### Key features
 
@@ -69,6 +71,18 @@ Poker_Analytic/
 │       └── info_widget.py      # Information widget
 ├── test/                        # Tests
 ├── helper_scripts/             # Support scripts (script for creating cards dataset)
+├── notebooks/                   # Google Colab notebooks for model training and experimentation
+│   ├─ classification/           # Classification croped images       
+│   │  ├─ test_cards             # Short test data from real pocker rooms for visual test 
+│   │  ├─ Cards_classification.ipynb   # Notebook for training the card classification model
+│   │  └─ label_to_cards.json     # JSON mapping of labels to card classes
+│   └─ detect/                    # YOLO object detection model training
+│      ├─ data/                   # Dataset and configuration for YOLO training
+│      │  ├─ images               # Images used for model training and validation
+│      │  ├─ labels               # Bounding box annotations and class labels
+│      │  ├─ data.yaml            # Dataset configuration (classes, paths, number of classes)
+│      │  └─ train.txt            # List of image paths used for training
+│      └─Yolo_detection           # YOLO training notebook and experiments
 ├── main.py                     # Entry point
 └── requirements.txt            # Project dependencies
 ```
@@ -78,6 +92,7 @@ Poker_Analytic/
 ## 🛠️ Technology stack
 
 ### Machine Learning and Computer Vision
+
 - **PyTorch** — a deep learning framework
 - **YOLOv8 (Ultralytics)** — card detection in images
 - **MobileNetV3** — a lightweight CNN for card classification
@@ -85,11 +100,13 @@ Poker_Analytic/
 - **NumPy** — numerical computations
 
 ### Graphical user interface
+
 - **PyQt6** — cross-platform GUI framework
 - **DXCam** — high-performance screen capture (DirectX)
 - **pywin32** — working with the Windows API
 
 ### Additional tools
+
 - **Pandas** — data structuring
 - **keyboard** — keyboard event interception
 - **black, flake8, isort** — code linters and formatters
@@ -99,6 +116,7 @@ Poker_Analytic/
 ## 🚀 Installation and commissioning
 
 ### Requirements
+
 - Python 3.10 or later
 - Windows 10/11 (for screen capture using DirectX)
 - NVIDIA GPU (optional, to speed up inference)
@@ -106,18 +124,21 @@ Poker_Analytic/
 ### Installing
 
 1. Copy repository:
+
 ```bash
 git clone https://github.com/yourusername/poker-analytic.git
 cd Poker_Analytic
 ```
 
 2. Create a virtual environment:
+
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
 ```
 
 3. Install the dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -137,23 +158,23 @@ python main.py
 3. **Hover your cursor** over the poker window and **press F8** to select it
 4. **A table window will open** showing the cards and odds
 5. **Play poker** — the app will automatically:
-   - Recognise your cards and the community cards
-   - Calculate the probabilities of improving your hand
-   - Display the results in real time
+    - Recognise your cards and the community cards
+    - Calculate the probabilities of improving your hand
+    - Display the results in real time
 
 ### Interface
 
 - **Cards** — displays your hand and the cards on the board
 - **Odds** — a table showing the probabilities of making each hand:
-  - Pair
-  - Two Pair
-  - Set (Three of a Kind)
-  - Straight
-  - Flush
-  - Full House
-  - Four of a Kind
-  - Straight Flush
-  - Royal Flush
+    - Pair
+    - Two Pair
+    - Set (Three of a Kind)
+    - Straight
+    - Flush
+    - Full House
+    - Four of a Kind
+    - Straight Flush
+    - Royal Flush
 - **Logs** — detailed information about the system’s operation
 
 ---
@@ -161,28 +182,34 @@ python main.py
 ## 🧮 Operating algorithm
 
 ### 1. Screen capture
+
 - Captures the selected window at 15 FPS
 - Optimised via DirectX for minimal system load
 
 ### 2. Map detection (YOLOv8)
+
 - Detects areas containing maps in the image
 - Identifies bounding boxes with a confidence threshold
 
 ### 3. Card Classification (MobileNetV3)
+
 - Extraction of card images from detected regions
 - Classification of each card (52 classes: 13 ranks × 4 suits)
 
 ### 4. Grouping and Validation
+
 - Separation of cards into ‘player’s hand’ and ‘board’ by position
 - Validation of card uniqueness and the correctness of the game state
 
 ### 5. Probability calculation
+
 - Analysis of the current situation (flop/turn)
 - Counting outs (cards needed to improve the hand)
 - Mathematical calculation of probabilities for each combination
 - Formula: `P = 1 - ((unseen - outs) / unseen) × ((unseen - outs - 1) / (unseen - 1))`
 
 ### 6. Displaying results
+
 - Updating the GUI with a visualisation of the cards
 - Displaying an odds table with percentage probabilities
 
@@ -191,23 +218,27 @@ python main.py
 ## 🎯 Technical solutions
 
 ### Card detection
+
 - Use of **YOLOv8** for fast and accurate detection
 - Custom trained model on a dataset of poker cards
 - Confidence threshold = 0.5 to balance accuracy and completeness
 
 ### Card classification
+
 - **MobileNetV3-Small** — a lightweight architecture for fast inference
 - 52 output classes (all possible cards in the deck)
 - Pre-processing: ImageNet mean/std normalisation
 - Inference on the CPU at a reasonable speed
 
 ### Mathematical calculations
+
 - Implementation of classic poker formulas
 - Accounts for the number of unknown cards and cards yet to be dealt
 - Separate calculators for each combination
 - Inherits from the base class `BaseOddsCalculator`
 
 ### Multithreading
+
 - Screen capture in a separate thread (`QThread`)
 - Worker for processing the pipeline without blocking the GUI
 - PyQt signals for safe communication between threads
@@ -217,6 +248,7 @@ python main.py
 ## 📊 Examples of use
 
 ### Scenario 1: The Flop
+
 ```
 Hand: A♠ K♠
 Board: Q♠ J♠ 2♥
@@ -229,6 +261,7 @@ The app will display:
 ```
 
 ### Scenario 2: Turn
+
 ```
 Hand: 7♦ 8♦
 Board: 9♦ 10♦ K♠ 2♣
@@ -237,7 +270,6 @@ The app will show:
 - Straight: 17.4% (4 outs on the river)
 - Straight Flush: 2.2% (1 out on the river)
 ```
-
 
 ---
 
@@ -266,17 +298,21 @@ pytest test/
 
 ### ⚠️ Known issue with small windows
 
-The app may not work correctly when the poker client window is set to a small size. The main issue is a significant loss of image quality when the cards are scaled down.
+The app may not work correctly when the poker client window is set to a small size. The main issue is a significant loss
+of image quality when the cards are scaled down.
 
 The nature of the problem:
+
 - When the game window is small, the cards are scaled down to ~15×15 pixels
 - At this resolution, it is physically impossible to extract sufficient visual information for accurate classification
 - The classifier (MobileNetV3) cannot reliably distinguish a card’s rank and suit from such a low-quality image
 
 Recommendation:
-Use a medium or large poker client window, where the cards remain clear and distinguishable. The minimum recommended card size is approximately 50×70 pixels.
+Use a medium or large poker client window, where the cards remain clear and distinguishable. The minimum recommended
+card size is approximately 50×70 pixels.
 
 Possible future solutions:
+
 - Retraining the classifier with the addition of low-resolution augmentations
 - Using a super-resolution model prior to classification
 - Warning the user if the window is too small
@@ -297,6 +333,7 @@ Configuration in `pyproject.toml` and `.flake8`.
 ## 🤝 Contribution to the project
 
 The project was developed to demonstrate skills in the following areas:
+
 - Computer vision
 - Machine learning
 - Desktop application development
@@ -316,9 +353,11 @@ This project has been created for educational purposes.
 Developed using modern ML/CV technologies and Python.
 
 **Contact details:**
+
 - GitHub: [AlexeySerebryansky]
 - Email: [aleksejserebranskij020@gmail.com]
 - LinkedIn: [Oleksii Serebrianskyi]
+
 ---
 
 <div align="center">
